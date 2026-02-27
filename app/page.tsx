@@ -1,11 +1,17 @@
+'use client';
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Home() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+
   return (
    <div className="shop-page">
  
   {/*header*/}
-  <header className="header">
+  <header className="header" style={{ position: "unset" }}>
     <div className="header-mobile-info">
       <div className="header-mobile-info-content js-info-content">
         <ul className="icn-list-sm">
@@ -96,8 +102,9 @@ export default function Home() {
         <div className="row align-items-lg-center">
           <button
             className="navbar-toggler collapsed"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
+              onClick={() => setIsOpen(!isOpen)}
+            // data-toggle="collapse"
+            // data-target="#navbarNavDropdown"
           >
             <span className="icon-menu" />
           </button>
@@ -110,8 +117,10 @@ export default function Home() {
             <div className="header-nav js-header-nav">
               <nav className="navbar navbar-expand-lg btco-hover-menu">
                 <div
-                  className="collapse navbar-collapse justify-content-end"
-                  id="navbarNavDropdown"
+                  // className=" justify-content-end "
+                  // id="navbarNavDropdown"
+                   className={`navbar-collapse justify-content-end visible ${isOpen ? "" : "collapse"}`}
+  id="navbarNavDropdown"
                 >
                   <ul className="navbar-nav">
                     <li className="nav-item">
@@ -255,7 +264,7 @@ export default function Home() {
                 </button>
               </form>
             </div>
-            <div className="header-cart cart-toggler">
+            {/* <div className="header-cart cart-toggler">
               <a href="#" className="icon icon-cart" />
               <span className="badge">2</span>
               <div className="header-cart-dropdown">
@@ -309,7 +318,7 @@ export default function Home() {
                   <span>CheckOut</span>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -664,9 +673,9 @@ export default function Home() {
                       data-animation="fadeInDown"
                       data-animation-delay="1s"
                     >
-                      Look fresh!
+                      Restore Your Skin.
                       <br />
-                      <b>Skin Surgery Artistry</b>
+                      <b>Regrow Your Confidence.</b>
                     </div>
                     <div
                       className="slide-txt2"
@@ -708,9 +717,9 @@ export default function Home() {
                       data-animation="fadeInDown"
                       data-animation-delay="1s"
                     >
-                      We Provide
+                      Advanced 
                       <br />
-                      <b>Full Medical Care!</b>
+                      <b>Skin, Hair & Fungal Treatment</b>
                     </div>
                     <div
                       className="slide-txt2"
@@ -753,9 +762,9 @@ export default function Home() {
                       data-animation="fadeInDown"
                       data-animation-delay="1s"
                     >
-                      We Provide
+                      Safe, Scientific
                       <br />
-                      <b>Full Medical Care!</b>
+                      <b>Result-Oriented Dermatology Care</b>
                     </div>
                     <div
                       className="slide-txt2"

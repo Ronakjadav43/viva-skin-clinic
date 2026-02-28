@@ -1045,59 +1045,57 @@ export default function Home() {
             <div className="title-wrap-alt">
               <div className="h-sub-lined theme-color">Why Choose Us?</div>
               <h2 className="h1">
-                Weight Loss is Not
-                <br className="d-sm-none" />
-                Just about the <br className="d-sm-none" />
-                <span className="theme-color">Calories and Exercise</span>
+                Expert Skin, Hair & Fungal Care with 
+                <span className="theme-color">Advanced Dermatology Solutions</span>
               </h2>
             </div>
             <p>
-              Our approach allows to identify the underlying causes that are
-              acting as obstacles which must be addressed before weight loss can
-              be achieved. This approach not only allows you to lose unwanted
-              weight but more importantly allows you to achieve overall health.
+             At Viva Skin Clinic, we combine medical expertise with modern dermatology technology to deliver safe, effective, and personalized treatments.
             </p>
+            <p>We focus not just on treating symptoms — but on identifying the root cause to ensure long-lasting results and healthier skin.</p>
             <ul className="marker-list-md">
-              <li>Access to the latest drugs and treatments</li>
-              <li>Over 25 years’ experience</li>
+              <li>Advanced Skin & Hair Treatments</li>
+              <li>Modern Laser & Clinical Equipment</li>
+              <li>Personalized Treatment Plans</li>
+              <li>Safe & Hygienic Environment</li>
             </ul>
             <div className="mt-3 mt-lg-5">
               <div className="counter-box-grid">
                 <div className="counter-box-sm">
                   <div className="counter-box-sm-number">
-                    <span className="count" data-to={120} data-speed={1500}>
-                      0
-                    </span>
-                    <span className="sup">K</span>
-                  </div>
-                  <div className="counter-box-sm-text">Kilograms Lost</div>
-                </div>
-                <div className="counter-box-sm">
-                  <div className="counter-box-sm-number">
-                    <span className="count" data-to={20} data-speed={1500}>
-                      0
+                    <span className="count" data-to={5} data-speed={1500}>
+                      5
                     </span>
                     <span className="sup">+</span>
                   </div>
-                  <div className="counter-box-sm-text">Permanent Staff</div>
-                </div>
-                <div className="counter-box-sm">
-                  <div className="counter-box-sm-number">
-                    <span className="count" data-to={25} data-speed={1500}>
-                      0
-                    </span>
-                    <span className="sup">+</span>
-                  </div>
-                  <div className="counter-box-sm-text">Years Experience</div>
+                  <div className="counter-box-sm-text">Years of Dermatology Experience</div>
                 </div>
                 <div className="counter-box-sm">
                   <div className="counter-box-sm-number">
                     <span className="count" data-to={10} data-speed={1500}>
-                      0
+                      10
                     </span>
                     <span className="sup">K+</span>
                   </div>
-                  <div className="counter-box-sm-text">Happy Clients</div>
+                  <div className="counter-box-sm-text">Happy Patients Treated</div>
+                </div>
+                <div className="counter-box-sm">
+                  <div className="counter-box-sm-number">
+                    <span className="count" data-to={8} data-speed={1500}>
+                      8
+                    </span>
+                    <span className="sup">+</span>
+                  </div>
+                  <div className="counter-box-sm-text">Specialized Treatments</div>
+                </div>
+                <div className="counter-box-sm">
+                  <div className="counter-box-sm-number">
+                    <span className="count" data-to={100} data-speed={1500}>
+                      100
+                    </span>
+                    <span className="sup">%</span>
+                  </div>
+                  <div className="counter-box-sm-text">Patient-Centered Care</div>
                 </div>
               </div>
             </div>
@@ -1140,7 +1138,7 @@ export default function Home() {
 
 
 {/*section Why Choose Us?*/}
-    <div className="section">
+    <div className="hidden section">
       <div className="container">
         <div className="title-wrap text-center">
           <div className="h-sub theme-color">See the difference</div>
@@ -1214,27 +1212,27 @@ export default function Home() {
           <div className="title-wrap-alt">
             <div className="h-sub-lined theme-color">About us</div>
             <h2 className="h1">
-              Medical Supervision that Only a{" "}
-              <span className="theme-color">Clinic Can Provide</span>
+              Personalized Dermatology 
+              <span className="theme-color">Care for Healthier Skin</span>
             </h2>
           </div>
           <p className="p-bold">
-            Dr. Barbara Glover, N.D. is a Body Contouring Expert with a clinical
-            focus in weight loss and weight management care
+            Dr. Akash Satasiya has extensive experience in diagnosing and treating acne, hair fall, pigmentation disorders, fungal infections, and advanced aesthetic concerns.
           </p>
           <p>
-            Having been introduced to naturopathic medicine while studying for
-            her medical entrance exams, Dr. Barbara practices integratively,
-            often collaborating with Medical Doctors, Registered Massage
-            Therapists, Chiropractors, Psychotherapists and other Health Care
-            Practitioners.
+            At Viva Skin Clinic, we provide advanced medical care for skin, hair, and fungal conditions with a patient-focused approach.
           </p>
+<p>
+  Our clinic combines clinical expertise with modern dermatology technology to deliver safe, effective, and personalized treatments tailored to each individual’s needs.
+  We believe healthy skin is not just about appearance, it reflects overall well-being and confidence.
+</p>
+
           <div className="signature mt-3">
             <div className="signature-img">
               <img src="images/content/signature.png" alt="Signature" />
             </div>
             <div className="signature-text">
-              <h5>Dr. Barbara Glover</h5>
+              <h5>Dr. Akash Satasiya</h5>
               Naturopathic Doctor, Certified Personal Trainer, Ideal Protein
               Coach
             </div>

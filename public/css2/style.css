@@ -9425,7 +9425,13 @@ body.touch .tooltip.show {
     font-size: 17px;
     line-height: 25px;
     font-weight: 600;
-    font-family: "Poppins", serif; }
+    font-family: "Poppins", serif;
+      width: 200px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
     @media (max-width: 1229px) {
       .counter-box-sm-text {
         font-size: 15px;

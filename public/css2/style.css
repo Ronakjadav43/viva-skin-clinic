@@ -9371,7 +9371,7 @@ body.touch .tooltip.show {
   .counter-box-text {
     opacity: 0;
     font-size: 18px;
-    line-height: 1em;
+    /* line-height: 1em; */
     font-weight: 600;
     font-family: "Poppins", serif;
     transform: translateY(-20px);

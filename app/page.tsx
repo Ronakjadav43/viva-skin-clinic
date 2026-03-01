@@ -2,9 +2,40 @@
 import Image from "next/image";
 import { useState } from "react";
 
+const faqs = [
+  {
+    question: "What services does the best skin clinic in Surat offer?",
+    answer:
+      "The best skin clinic offers treatments for acne, pigmentation, wrinkles, laser therapy, chemical peels, PRP, Hydrafacial and more. Each treatment is customized after consultation.",
+  },
+  {
+    question:
+      "How do I know if I am visiting the best skin clinic in Surat?",
+    answer:
+      "Look for experienced dermatologists, modern technology, positive reviews, and personalized consultation approach.",
+  },
+  {
+    question: "Are the treatments safe?",
+    answer:
+      "Yes. All procedures are performed by qualified professionals using approved equipment and strict hygiene protocols.",
+  },
+  {
+    question: "Do you provide anti-aging treatments?",
+    answer:
+      "Yes. We offer Botox, fillers, PRP therapy, laser resurfacing and advanced skin rejuvenation treatments.",
+  },
+]
+
+
 export default function Home() {
 
   const [isOpen, setIsOpen] = useState(false);
+
+   const [openIndex, setOpenIndex] = useState<number | null>(0)
+
+  const toggle = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index)
+  }
 
 
   return (
@@ -887,7 +918,7 @@ export default function Home() {
         <div className="col-md-6 col-lg-6">
           <a href="service-page.html" className="service-card-style4">
             <div className="service-card-img">
-              <img src="images/content/t1.jpg" alt="" />
+              <img src="images/Treatments/wmremove-transformed.jpeg" alt="" />
             </div>
             <h5 className="service-card-name">Acne & Acne Spot</h5>
             <div className="service-card-bg">
@@ -904,7 +935,7 @@ export default function Home() {
         <div className="col-md-6 col-lg-6">
           <a href="service-page.html" className="service-card-style4">
             <div className="service-card-img">
-              <img src="images/content/t2.jpg" alt="" />
+              <img src="images/Treatments/wmremove-transformed (1).jpeg" alt="" />
             </div>
             <h5 className="service-card-name">Hair Fall & Growth</h5>
             <div className="service-card-bg">
@@ -921,7 +952,7 @@ export default function Home() {
         <div className="col-md-6 col-lg-6">
           <a href="service-page.html" className="service-card-style4">
             <div className="service-card-img">
-              <img src="images/content/t3.jpg" alt="" />
+              <img src="images/Treatments/wmremove-transformed (2).jpeg" alt="" />
             </div>
             <h5 className="service-card-name">Fungal Infections</h5>
             <div className="service-card-bg">
@@ -938,7 +969,7 @@ export default function Home() {
         <div className="col-md-6 col-lg-6">
           <a href="service-page.html" className="service-card-style4">
             <div className="service-card-img">
-              <img src="images/content/t4.jpg" alt="" />
+              <img src="images/Treatments/4.jpeg" alt="" />
             </div>
             <h5 className="service-card-name">Laser Hair Removal</h5>
             <div className="service-card-bg">
@@ -1576,32 +1607,31 @@ export default function Home() {
               </div>
               <div className="title-wrap text-center text-sm-left mt-2 mt-md-0">
                 <h2 className="h1">
-                  Most <span className="theme-color">Popular Procedures</span>
+                  Best Skin & Hair Treatments <span className="theme-color">in Surat</span>
                 </h2>
               </div>
               <p className="text-center text-sm-left">
-                We are approach plastic surgery with precision and artistic
-                vision to reveal each patient's unique beauty.
+               Looking for acne treatment, laser hair removal, PRP hair therapy, or pigmentation removal in Surat? Viva Skin Clinic offers advanced dermatological procedures with modern technology and expert care.
               </p>
               <div className="row">
                 <div className="col-sm-6">
                   <ul className="circle-list">
-                    <li>Breast Augmentation</li>
-                    <li>Breast Lift</li>
-                    <li>Liposuction</li>
-                    <li>Mommy Makeover</li>
-                    <li>Tummy Tuck</li>
-                    <li>Brazilian Butt Lift</li>
+                    <li>Acne & Acne Scar Treatment</li>
+                    <li>Pigmentation & Dark Spot Removal</li>
+                    <li>Hair Fall & PRP Therapy</li>
+                    <li>Fungal Infection Treatment</li>
+                    <li>Laser Hair Removal</li>
+                    <li>Hydrafacial & Medi-Facials</li>
                   </ul>
                 </div>
                 <div className="col-sm-6 mt-1 mt-md-0">
                   <ul className="circle-list">
-                    <li>Eyelid surgery</li>
-                    <li>Facelift</li>
-                    <li>Neck Lift</li>
-                    <li>Rhinoplasty</li>
-                    <li>BOTOX® Cosmetic</li>
-                    <li>Injectables</li>
+                    <li>Glutathione IV Skin Brightening</li>
+                    <li>Carbon Facial</li>
+                    <li>Stretch Mark & Scar Reduction</li>
+                    <li>Chemical Peels</li>
+                    <li>Skin Tightening (MNRF)</li>
+                    <li>Anti-Aging & Botox Treatments</li>
                   </ul>
                 </div>
               </div>
@@ -1630,13 +1660,13 @@ export default function Home() {
                 <i className="icon-hand" />
               </div>
               <div className="counter-box-number">
-                <span className="count" data-to={15} data-speed={1500}>
+                <span className="count" data-to={5} data-speed={1500}>
                   0
                 </span>
                 +
               </div>
               <div className="decor" />
-              <div className="counter-box-text">Years of experience</div>
+              <div className="counter-box-text">Years of Dermatology Experience</div>
             </div>
           </div>
           <div className="col">
@@ -1645,13 +1675,13 @@ export default function Home() {
                 <i className="icon-tooth-1" />
               </div>
               <div className="counter-box-number">
-                <span className="count" data-to={10} data-speed={1500}>
+                <span className="count" data-to={12000} data-speed={1500}>
                   0
                 </span>
-                K
+                +
               </div>
               <div className="decor" />
-              <div className="counter-box-text">Improved Smiles</div>
+              <div className="counter-box-text">Happy Skin & Hair Patients</div>
             </div>
           </div>
           <div className="col">
@@ -1660,12 +1690,13 @@ export default function Home() {
                 <i className="icon-team" />
               </div>
               <div className="counter-box-number">
-                <span className="count" data-to={50} data-speed={1500}>
+                <span className="count" data-to={25} data-speed={1500}>
                   0
                 </span>
+                 +
               </div>
               <div className="decor" />
-              <div className="counter-box-text">Surgical Specialists</div>
+              <div className="counter-box-text">Advanced Treatment Technologies</div>
             </div>
           </div>
           <div className="col">
@@ -1674,12 +1705,13 @@ export default function Home() {
                 <i className="icon-placeholder3" />
               </div>
               <div className="counter-box-number">
-                <span className="count" data-to={4} data-speed={1500}>
+                <span className="count" data-to={98} data-speed={1500}>
                   0
                 </span>
+                %
               </div>
               <div className="decor" />
-              <div className="counter-box-text">Our Locations</div>
+              <div className="counter-box-text">Patient Satisfaction Rate</div>
             </div>
           </div>
         </div>
@@ -1703,36 +1735,53 @@ export default function Home() {
                   </h2>
                 </div>
               </div>
+
+
+
+
               <div
                 id="faqAccordion1"
                 className="faq-accordion mt-2 mt-lg-3"
                 data-children=".faq-item"
               >
+
+
+ {faqs.map((faq, index) => (
+
                 <div className="faq-item"> 
                   <a
                     data-toggle="collapse"
                     data-parent="#faqAccordion1"
-                    href="#faqItem1"
+                    href={`#faqItem${index + 1}`}
                     aria-expanded="true"
+                     onClick={() => toggle(index)}
                   >
-                    <span>1.</span>
+                    <span>{index + 1}.</span>
                     <span>
-                     What services does the best skin clinic in Surat offer?
+                     {faq.question}
                     </span>
                   </a>
                   <div
-                    id="faqItem1"
-                    className="collapse show faq-item-content"
+                    id={`faqItem${index + 1}`}
+                    // className={`collapse ${openIndex === index ? "show" : ""} faq-item-content`}
                     role="tabpanel"
+                     className={`overflow-hidden transition-all duration-300 faq-item-content ${
+                  openIndex === index
+                    ? "max-h-40 opacity-100 visible"
+                    : "max-h-0 opacity-0"
+                }`}
                   >
                     <div>
                       <p>
-                       The best skin clinic in Surat offers a comprehensive range of services to address various skin concerns. These include treatments for acne, pigmentation, wrinkles, and other skin issues, as well as advanced procedures like laser therapy, chemical peels, and dermal fillers. The clinic also provides personalized skincare consultations to help you achieve and maintain healthy, glowing skin.
+                        {faq.answer}
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="faq-item">
+
+  ))}
+
+                {/* <div className="faq-item">
                   <a
                     data-toggle="collapse"
                     data-parent="#faqAccordion1"
@@ -1802,8 +1851,11 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
+
+
+
               <a
                 href="#"
                 className="btn mt-3"
@@ -2640,14 +2692,15 @@ export default function Home() {
             <div className="col-sm-6 col-lg-7 d-flex align-items-center justify-content-center">
               <div className="text-center">
                 <h2>
-                  Looking for <br className="d-lg-none" /> a{" "}
-                  <span className="theme-color">Plastic Surgeon?</span>
+                  Struggling with  <br className="d-lg-none" /> 
+                  <span className="theme-color">Acne, Hair Fall or Skin Issues?</span>
                 </h2>
                 <div className="h-decor" />
                 <p className="mt-sm-1 mt-lg-4 text-left text-sm-center">
-                  We're always accepting new patients! We believe in providing
-                  the best possible care to all our existing patients and
-                  welcome new patients to sample the service we have to offer.{" "}
+                 Don’t ignore your skin problems. Early treatment ensures better and faster results.
+                </p>
+                 <p className="mt-sm-1 mt-lg-4 text-left text-sm-center">
+                 Viva Skin Clinic offers medically approved treatments for:
                 </p>
                 <div className="mt-2 mt-lg-4">
                   <a href="#" className="banner-call-phone">
@@ -2679,9 +2732,9 @@ export default function Home() {
             <div className="col-md col-lg-auto">
               <div className="footer-logo">
                 <img
-                  src="images/footer-logo.png"
+                  src="images/VivaLogo.png"
                   alt=""
-                  className="img-fluid"
+                  className="img-fluid w-[200px] h-auto"
                 />
               </div>
               <div className="mt-2 mt-lg-0" />
@@ -2838,7 +2891,7 @@ export default function Home() {
               <b>
                 <span className="phone">
                   <span className="text-nowrap">+91 99786 70270</span>,{" "}
-                  <span className="text-nowrap">1-800-267-0001</span>
+                  <span className="text-nowrap">+91 99786 70270</span>
                 </span>
               </b>
               <br />

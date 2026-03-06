@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <div className="shop-page">
       {/*header*/}
-      <header className="header" style={{ position: "unset" }}>
+      <header className="hidden header" style={{ position: "unset" }}>
         <div className="header-mobile-info">
           <div className="header-mobile-info-content js-info-content">
             <ul className="icn-list-sm">
@@ -929,833 +929,193 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <>
-          {/*section Our Treatments*/}
-          <div className="section bg-dotted">
-            <div className="container-fluid">
-              <div className="title-wrap text-center">
-                <h2
-                  className="h1 double-title double-title--white double-title--center double-title--vcenter"
-                  data-title="Our Treatments"
-                >
-                  <span>Our Treatments</span>
-                </h2>
-                <div className="h-decor" />
-              </div>
-              <div className="container">
-                <div className="blog-grid-full  mt-3 mb-0 row">
-                  <div className="col-md-6 col-lg-6">
-                    <a href="service-page.html" className="service-card-style4">
-                      <div className="service-card-img">
-                        <img
-                          src="images/Treatments/wmremove-transformed.jpeg"
-                          alt=""
-                        />
-                      </div>
+
+        {/*section Our Treatments*/}
+        <div className="section bg-dotted">
+          <div className="container-fluid">
+            <div className="title-wrap text-center">
+              <h2
+                className="h1 double-title double-title--white double-title--center double-title--vcenter"
+                data-title="Our Treatments"
+              >
+                <span>Our Treatments</span>
+              </h2>
+              <div className="h-decor" />
+            </div>
+            <div className="container">
+              <div className="blog-grid-full  mt-3 mb-0 row">
+                <div className="col-md-6 col-lg-6">
+                  <a href="service-page.html" className="service-card-style4">
+                    <div className="service-card-img">
+                      <img
+                        src="images/Treatments/Acne & acne spot.png"
+                        alt=""
+                      />
+                    </div>
+                    <h5 className="service-card-name">Acne & Acne Spot</h5>
+                    <div className="service-card-bg">
+                      <i className="icon-salat"></i>
                       <h5 className="service-card-name">Acne & Acne Spot</h5>
-                      <div className="service-card-bg">
-                        <i className="icon-salat"></i>
-                        <h5 className="service-card-name">Acne & Acne Spot</h5>
-                        <p>
-                          Effective treatment for active acne and stubborn acne
-                          marks. We use advanced dermatology techniques to
-                          reduce inflammation, prevent breakouts and lighten
-                          acne pigmentation for clear skin.
-                        </p>
-                        <span className="btn-plus">+</span>
-                        <div className="service-card-img-num">1</div>
-                      </div>
-                    </a>
-                  </div>
-                  <div className="col-md-6 col-lg-6">
-                    <a href="service-page.html" className="service-card-style4">
-                      <div className="service-card-img">
-                        <img
-                          src="images/Treatments/wmremove-transformed (1).jpeg"
-                          alt=""
-                        />
-                      </div>
+                      <p>
+                        Effective treatment for active acne and stubborn acne
+                        marks. We use advanced dermatology techniques to reduce
+                        inflammation, prevent breakouts and lighten acne
+                        pigmentation for clear skin.
+                      </p>
+                      <span className="btn-plus">+</span>
+                      <div className="service-card-img-num">1</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-6 col-lg-6">
+                  <a href="service-page.html" className="service-card-style4">
+                    <div className="service-card-img">
+                      <img
+                        src="images/Treatments/hair fall & Growth.png"
+                        alt=""
+                      />
+                    </div>
+                    <h5 className="service-card-name">Hair Fall & Growth</h5>
+                    <div className="service-card-bg">
+                      <i className="icon-run" />
                       <h5 className="service-card-name">Hair Fall & Growth</h5>
-                      <div className="service-card-bg">
-                        <i className="icon-run" />
-                        <h5 className="service-card-name">
-                          Hair Fall & Growth
-                        </h5>
-                        <p>
-                          Target hair thinning and excessive hair fall with
-                          clinically proven solutions for stronger, healthier
-                          hair.
-                        </p>
-                        <span className="btn-plus">+</span>
-                        <div className="service-card-img-num">2</div>
-                      </div>
-                    </a>
-                  </div>
-                  <div className="col-md-6 col-lg-6">
-                    <a href="service-page.html" className="service-card-style4">
-                      <div className="service-card-img">
-                        <img
-                          src="images/Treatments/wmremove-transformed (2).jpeg"
-                          alt=""
-                        />
-                      </div>
+                      <p>
+                        Target hair thinning and excessive hair fall with
+                        clinically proven solutions for stronger, healthier
+                        hair.
+                      </p>
+                      <span className="btn-plus">+</span>
+                      <div className="service-card-img-num">2</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-6 col-lg-6">
+                  <a href="service-page.html" className="service-card-style4">
+                    <div className="service-card-img">
+                      <img
+                        src="images/Treatments/fungal infection.png"
+                        alt=""
+                      />
+                    </div>
+                    <h5 className="service-card-name">Fungal Infections</h5>
+                    <div className="service-card-bg">
+                      <i className="icon-pills" />
                       <h5 className="service-card-name">Fungal Infections</h5>
-                      <div className="service-card-bg">
-                        <i className="icon-pills" />
-                        <h5 className="service-card-name">Fungal Infections</h5>
-                        <p>
-                          Safe and effective dermatological treatments for
-                          fungal skin infections with long-term prevention
-                          guidance.
-                        </p>
-                        <span className="btn-plus">+</span>
-                        <div className="service-card-img-num">3</div>
-                      </div>
-                    </a>
-                  </div>
-                  <div className="col-md-6 col-lg-6">
-                    <a href="service-page.html" className="service-card-style4">
-                      <div className="service-card-img">
-                        <img src="images/Treatments/4.jpeg" alt="" />
-                      </div>
+                      <p>
+                        Safe and effective dermatological treatments for fungal
+                        skin infections with long-term prevention guidance.
+                      </p>
+                      <span className="btn-plus">+</span>
+                      <div className="service-card-img-num">3</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-6 col-lg-6">
+                  <a href="service-page.html" className="service-card-style4">
+                    <div className="service-card-img">
+                      <img src="images/Treatments/laser hair removal.png" alt="" />
+                    </div>
+                    <h5 className="service-card-name">Laser Hair Removal</h5>
+                    <div className="service-card-bg">
+                      <i className="icon-behavior" />
                       <h5 className="service-card-name">Laser Hair Removal</h5>
-                      <div className="service-card-bg">
-                        <i className="icon-behavior" />
-                        <h5 className="service-card-name">
-                          Laser Hair Removal
-                        </h5>
-                        <p>
-                          Permanent hair reduction with advanced laser
-                          technology. Safe for all skin types with painless,
-                          precise results.
-                        </p>
-                        <span className="btn-plus">+</span>
-                        <div className="service-card-img-num">4</div>
-                      </div>
-                    </a>
-                  </div>
+                      <p>
+                        Permanent hair reduction with advanced laser technology.
+                        Safe for all skin types with painless, precise results.
+                      </p>
+                      <span className="btn-plus">+</span>
+                      <div className="service-card-img-num">4</div>
+                    </div>
+                  </a>
                 </div>
               </div>
+            </div>
 
-              <div className="container-fluid">
-                <div className="blog-grid-full blog-grid-carousel-full js-blog-grid-carousel-full mt-3 mb-0 row">
-                  <div className="col-md-6 col-lg-4">
-                    <a href="service-page.html" className="service-card-style4">
-                      <div className="service-card-img">
-                        <img src="images/content/t1.jpg" alt="" />
-                      </div>
+            <div className="container-fluid">
+              <div className="blog-grid-full blog-grid-carousel-full js-blog-grid-carousel-full mt-3 mb-0 row">
+                <div className="col-md-6 col-lg-4">
+                  <a href="service-page.html" className="service-card-style4">
+                    <div className="service-card-img">
+                      <img src="images/Treatments/PRP Therapy.png" alt="" />
+                    </div>
+                    <h5 className="service-card-name">PRP Therapy</h5>
+                    <div className="service-card-bg">
+                      <i className="icon-happy" />
                       <h5 className="service-card-name">PRP Therapy</h5>
-                      <div className="service-card-bg">
-                        <i className="icon-happy" />
-                        <h5 className="service-card-name">PRP Therapy</h5>
-                        <p>
-                          Platelet-Rich Plasma therapy for skin rejuvenation and
-                          hair restoration using your body's own healing power.
-                        </p>
-                        <span className="btn-plus">+</span>
-                        <div className="service-card-img-num">5</div>
-                      </div>
-                    </a>
-                  </div>
-                  <div className="col-md-6 col-lg-4">
-                    <a href="service-page.html" className="service-card-style4">
-                      <div className="service-card-img">
-                        <img src="images/content/t2.jpg" alt="" />
-                      </div>
+                      <p>
+                        Platelet-Rich Plasma therapy for skin rejuvenation and
+                        hair restoration using your body's own healing power.
+                      </p>
+                      <span className="btn-plus">+</span>
+                      <div className="service-card-img-num">5</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-6 col-lg-4">
+                  <a href="service-page.html" className="service-card-style4">
+                    <div className="service-card-img">
+                      <img src="images/Treatments/hydra-facial.png" alt="" />
+                    </div>
+                    <h5 className="service-card-name">Hydrafacial</h5>
+                    <div className="service-card-bg">
+                      <i className="icon-molecula"></i>
                       <h5 className="service-card-name">Hydrafacial</h5>
-                      <div className="service-card-bg">
-                        <i className="icon-molecula"></i>
-                        <h5 className="service-card-name">Hydrafacial</h5>
-                        <p>
-                          Premium facial treatments for deep cleansing,
-                          exfoliation, and hydration to reveal radiant, glowing
-                          skin.
-                        </p>
-                        <span className="btn-plus">+</span>
-                        <div className="service-card-img-num">6</div>
-                      </div>
-                    </a>
-                  </div>
-                  <div className="col-md-6 col-lg-4">
-                    <a href="service-page.html" className="service-card-style4">
-                      <div className="service-card-img">
-                        <img src="images/content/t3.jpg" alt="" />
-                      </div>
+                      <p>
+                        Premium facial treatments for deep cleansing,
+                        exfoliation, and hydration to reveal radiant, glowing
+                        skin.
+                      </p>
+                      <span className="btn-plus">+</span>
+                      <div className="service-card-img-num">6</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-6 col-lg-4">
+                  <a href="service-page.html" className="service-card-style4">
+                    <div className="service-card-img">
+                      <img src="images/Treatments/Pigmentation Treatment.png" alt="" />
+                    </div>
+                    <h5 className="service-card-name">
+                      Pigmentation Treatment
+                    </h5>
+                    <div className="service-card-bg">
+                      <i className="icon-coach"></i>
                       <h5 className="service-card-name">
                         Pigmentation Treatment
                       </h5>
-                      <div className="service-card-bg">
-                        <i className="icon-coach"></i>
-                        <h5 className="service-card-name">
-                          Pigmentation Treatment
-                        </h5>
-                        <p>
-                          Advanced solutions for dark spots, melasma, and uneven
-                          skin tone using cutting-edge dermatology techniques.
-                        </p>
-                        <span className="btn-plus">+</span>
-                        <div className="service-card-img-num">7</div>
-                      </div>
-                    </a>
-                  </div>
-                  <div className="col-md-6 col-lg-4">
-                    <a href="service-page.html" className="service-card-style4">
-                      <div className="service-card-img">
-                        <img src="images/content/t4.jpg" alt="" />
-                      </div>
+                      <p>
+                        Advanced solutions for dark spots, melasma, and uneven
+                        skin tone using cutting-edge dermatology techniques.
+                      </p>
+                      <span className="btn-plus">+</span>
+                      <div className="service-card-img-num">7</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-6 col-lg-4">
+                  <a href="service-page.html" className="service-card-style4">
+                    <div className="service-card-img">
+                      <img src="images/Treatments/Glutathione IV.png" alt="" />
+                    </div>
+                    <h5 className="service-card-name">Glutathione IV Drip</h5>
+                    <div className="service-card-bg">
+                      <i className="icon-instruments" />
                       <h5 className="service-card-name">Glutathione IV Drip</h5>
-                      <div className="service-card-bg">
-                        <i className="icon-instruments" />
-                        <h5 className="service-card-name">
-                          Glutathione IV Drip
-                        </h5>
-                        <p>
-                          Premium skin brightening treatment with Glutathione IV
-                          drips for overall skin glow and antioxidant
-                          protection.
-                        </p>
-                        <span className="btn-plus">+</span>
-                        <div className="service-card-img-num">8</div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/*//section Our Treatments*/}
-
-          <>
-            {/*section Why Choose Us? */}
-            <div className="section bg-grey mt-0 py-0">
-              <div className="container-fluid px-0 over-visible">
-                <div className="row white-col-wrap">
-                  <div className="col-md-6 white-col">
-                    <div className="white-col-inside">
-                      <div className="title-wrap-alt">
-                        <div className="h-sub-lined theme-color">
-                          Why Choose Us?
-                        </div>
-                        <h2 className="h1">
-                          Expert Skin, Hair & Fungal Care with
-                          <span className="theme-color">
-                            Advanced Dermatology Solutions
-                          </span>
-                        </h2>
-                      </div>
                       <p>
-                        At Viva Skin Clinic, we combine medical expertise with
-                        modern dermatology technology to deliver safe,
-                        effective, and personalized treatments.
+                        Premium skin brightening treatment with Glutathione IV
+                        drips for overall skin glow and antioxidant protection.
                       </p>
-                      <p>
-                        We focus not just on treating symptoms — but on
-                        identifying the root cause to ensure long-lasting
-                        results and healthier skin.
-                      </p>
-                      <ul className="marker-list-md">
-                        <li>Advanced Skin & Hair Treatments</li>
-                        <li>Modern Laser & Clinical Equipment</li>
-                        <li>Personalized Treatment Plans</li>
-                        <li>Safe & Hygienic Environment</li>
-                      </ul>
-                      <div className="mt-3 mt-lg-5">
-                        <div className="counter-box-grid">
-                          <div className="counter-box-sm">
-                            <div className="counter-box-sm-number">
-                              <span
-                                className="count"
-                                data-to={5}
-                                data-speed={1500}
-                              >
-                                5
-                              </span>
-                              <span className="sup">+</span>
-                            </div>
-                            <div className="counter-box-sm-text">
-                              Years of Dermatology Experience
-                            </div>
-                          </div>
-                          <div className="counter-box-sm">
-                            <div className="counter-box-sm-number">
-                              <span
-                                className="count"
-                                data-to={10}
-                                data-speed={1500}
-                              >
-                                10
-                              </span>
-                              <span className="sup">K+</span>
-                            </div>
-                            <div className="counter-box-sm-text">
-                              Happy Patients Treated
-                            </div>
-                          </div>
-                          <div className="counter-box-sm">
-                            <div className="counter-box-sm-number">
-                              <span
-                                className="count"
-                                data-to={8}
-                                data-speed={1500}
-                              >
-                                8
-                              </span>
-                              <span className="sup">+</span>
-                            </div>
-                            <div className="counter-box-sm-text">
-                              Specialized Treatments
-                            </div>
-                          </div>
-                          <div className="counter-box-sm">
-                            <div className="counter-box-sm-number">
-                              <span
-                                className="count"
-                                data-to={100}
-                                data-speed={1500}
-                              >
-                                100
-                              </span>
-                              <span className="sup">%</span>
-                            </div>
-                            <div className="counter-box-sm-text">
-                              Patient-Centered Care
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      <span className="btn-plus">+</span>
+                      <div className="service-card-img-num">8</div>
                     </div>
-                  </div>
-                  <div className="col-md-6 mb-0 mb-lg-7 image-right-fullheight-col">
-                    <div className="image-right-fullheight">
-                      <img src="images/content/banner-right1.jpg" alt="" />
-                      <div className="image-corner image-corner--left">
-                        <i className="icon-achivement" />
-                      </div>
-                    </div>
-                    <div className="over-image-card over-image-card--sm pos-center-1">
-                      <div className="over-image-card-icon">
-                        <i className="icon-phone-time" />
-                      </div>
-                      <div className="over-image-card-text">
-                        <h4>Free 15 Min Consultation</h4>
-                        <p>
-                          Use the form to book your FREE 15 min telephone
-                          consultation.
-                        </p>
-                        <a
-                          href="#"
-                          className="btn btn-white btn-white--all"
-                          data-toggle="modal"
-                          data-target="#modalBookingForm"
-                        >
-                          <i className="icon-right-arrow" />
-                          <span>book consultation</span>
-                          <i className="icon-right-arrow" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*//section Why Choose Us? */}
-          </>
-
-          {/*section Why Choose Us?*/}
-          <div className="hidden section">
-            <div className="container">
-              <div className="title-wrap text-center">
-                <div className="h-sub theme-color">See the difference</div>
-                <h2 className="h1">Why Choose Us?</h2>
-                <div className="h-decor" />
-              </div>
-              <div
-                className="row js-icn-carousel icn-carousel flex-column flex-sm-row text-center text-sm-left"
-                data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}]}'
-              >
-                <div className="col-md">
-                  <div className="icn-text">
-                    <div className="icn-text-circle icn-text-circle--sm">
-                      <i className="icon-medicine" />
-                    </div>
-                    <div>
-                      <h5 className="icn-text-title">
-                        High Standard of surgery
-                      </h5>
-                      <p>
-                        Our surgeons are fellows of the most rigorous and
-                        academically recognized accreditation body for surgeons,
-                        and have completed accredited fellowship training with
-                        high standards of quality.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md">
-                  <div className="icn-text">
-                    <div className="icn-text-circle">
-                      <i className="icon-team" />
-                    </div>
-                    <div>
-                      <h5 className="icn-text-title">
-                        Committed Surgical Team
-                      </h5>
-                      <p>
-                        Our surgeons' expertise covers the broad scope of
-                        general, vascular and trauma surgery. This includes
-                        surgery of the breast, cancers, colon and rectum,
-                        endocrine system, and skin diseases.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md">
-                  <div className="icn-text">
-                    <div className="icn-text-circle icn-text-circle--sm">
-                      <i className="icon-syringe" />
-                    </div>
-                    <div>
-                      <h5 className="icn-text-title">Modern Equipment</h5>
-                      <p>
-                        Our practice is equipped with the latest technology that
-                        allows us to perform the most modern treatments. We only
-                        use the premium brand products from the leading
-                        manufacturers.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/*//section Why Choose Us?*/}
-
-          {/*section About us*/}
-          <div className="section bg-norepeat bg-md-none section-top-padding">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-6 pl-lg-3 pt-lg-5">
-                  <div className="title-wrap-alt">
-                    <div className="h-sub-lined theme-color">About us</div>
-                    <h2 className="h1">
-                      Personalized Dermatology
-                      <span className="theme-color">
-                        Care for Healthier Skin
-                      </span>
-                    </h2>
-                  </div>
-                  <p className="p-bold">
-                    Dr. Akash Satasiya has extensive experience in diagnosing
-                    and treating acne, hair fall, pigmentation disorders, fungal
-                    infections, and advanced aesthetic concerns.
-                  </p>
-                  <p>
-                    At Viva Skin Clinic, we provide advanced medical care for
-                    skin, hair, and fungal conditions with a patient-focused
-                    approach.
-                  </p>
-                  <p>
-                    Our clinic combines clinical expertise with modern
-                    dermatology technology to deliver safe, effective, and
-                    personalized treatments tailored to each individual’s needs.
-                    We believe healthy skin is not just about appearance, it
-                    reflects overall well-being and confidence.
-                  </p>
-
-                  <div className="signature mt-3">
-                    <div className="signature-img">
-                      <img src="images/content/signature.png" alt="Signature" />
-                    </div>
-                    <div className="signature-text">
-                      <h5>Dr. Akash Satasiya</h5>
-                      Naturopathic Doctor, Certified Personal Trainer, Ideal
-                      Protein Coach
-                    </div>
-                  </div>
-                  <div className="mt-2" />
-                  <a
-                    href="#"
-                    className="btn-link btn-link--sm"
-                    data-toggle="modal"
-                    data-target="#modalBookingForm"
-                  >
-                    schedule a visit
-                    <i className="icon-right-arrow" />
                   </a>
-                </div>
-                <div className="col-md-6 mb-lg-5 position-relative mt-3 mt-md-0">
-                  <div className="img-with-bg">
-                    <img src="images/content/index-img-01.jpg" alt="" />
-                    <img
-                      src="images/content/img-bg.png"
-                      className="img-bg"
-                      alt=""
-                    />
-                  </div>
-                  <a
-                    href="#"
-                    className="video-btn-circle-left js-video-btn"
-                    data-toggle="modal"
-                    data-src="https://www.youtube.com/embed/uyWt48mWmz0"
-                    data-target="#videoModal"
-                  >
-                    <span>
-                      <i className="icon-play" />
-                    </span>
-                  </a>
-                  {/* Video Modal */}
-                  <div className="modal video-modal fade" id="videoModal">
-                    <div className="modal-dialog">
-                      <div className="modal-content">
-                        <div className="modal-body">
-                          <div className="embed-responsive embed-responsive-16by9">
-                            <iframe
-                              data-src="https://www.youtube.com/embed/mDHGaU_jGrQ?start=10"
-                              src="https://www.youtube.com/embed/mDHGaU_jGrQ?start=10"
-                              frameBorder={0}
-                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                              // allowFullScreen=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* //Video Modal */}
-                  <div className="over-image-card pos-center">
-                    <div className="over-image-card-icon">
-                      <i className="icon-info" />
-                    </div>
-                    <div className="over-image-card-text">
-                      <h4>Patient Information</h4>
-                      <p>
-                        The following information will be of interest to weight
-                        loss surgery patients.
-                      </p>
-                      <a
-                        href="form-download.html"
-                        className="btn btn-white btn-white--all"
-                      >
-                        <i className="icon-right-arrow" />
-                        <span>download forms</span>
-                        <i className="icon-right-arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/*//section About us*/}
-        </>
-
-        {/*//section welcome*/}
-        {/*section services*/}
-        <div className="section">
-          <div className="container-fluid px-0">
-            <div className="title-wrap text-center">
-              <h2 className="h1">General Services</h2>
-              <div className="h-decor" />
-            </div>
-            <div className="row no-gutters services-box-wrap services-box-wrap-desktop">
-              <div className="col-4 order-1">
-                <div className="service-box-rotator js-service-box-rotator">
-                  <div className="service-box service-box-greybg service-box--hiddenbtn">
-                    <div className="service-box-caption text-center">
-                      <div className="service-box-icon">
-                        <i className="icon-man" />
-                      </div>
-                      <div className="service-box-icon-bg">
-                        <i className="icon-man" />
-                      </div>
-                      <h3 className="service-box-title">
-                        Male Plastic Surgery
-                      </h3>
-                      <p>
-                        Men of all ages and all walks of life are requesting
-                        plastic surgery for cosmetic reasons
-                      </p>
-                      <div className="btn-wrap">
-                        <a href="service-page.html" className="btn">
-                          <i className="icon-right-arrow" />
-                          <span>Know more</span>
-                          <i className="icon-right-arrow" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="service-box service-box-greybg service-box--hiddenbtn">
-                    <div className="service-box-caption text-center">
-                      <div className="service-box-icon">
-                        <i className="icon-injecting" />
-                      </div>
-                      <div className="service-box-icon-bg">
-                        <i className="icon-injecting" />
-                      </div>
-                      <h3 className="service-box-title">
-                        Non-Surgical Procedures
-                      </h3>
-                      <p>
-                        Aesthetic plastic surgery can achieve impressive
-                        changes. We offer a wide variety of non-surgical
-                        procedures
-                      </p>
-                      <div className="btn-wrap">
-                        <a href="service-page.html" className="btn">
-                          <i className="icon-right-arrow" />
-                          <span>Know more</span>
-                          <i className="icon-right-arrow" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-8 order-2">
-                <div className="service-box">
-                  <div
-                    className="service-box-image"
-                    data-bg="images/content/service-02.jpg"
-                  />
-                  <div className="service-box-caption text-center w-50 ml-auto">
-                    <h3 className="service-box-title">Facial Procedures</h3>
-                    <p>
-                      Our Clinic is board certified in facial plastic surgery
-                      and plastic surgery and specializes in facial cosmetic
-                      procedures.
-                    </p>
-                    <div className="btn-wrap">
-                      <a href="service-page.html" className="btn">
-                        <i className="icon-right-arrow" />
-                        <span>Know more</span>
-                        <i className="icon-right-arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-8 order-3 order-lg-4 order-xl-3">
-                <div className="service-box">
-                  <div
-                    className="service-box-image"
-                    data-bg="images/content/service-04.jpg"
-                  />
-                  <div className="service-box-caption text-center w-50 ml-auto">
-                    <h3 className="service-box-title">Breast Procedures</h3>
-                    <p>
-                      Cosmetic breast surgery can help you get the breast
-                      <br /> shape &amp; size you want
-                    </p>
-                    <div className="btn-wrap">
-                      <a href="service-page.html" className="btn">
-                        <i className="icon-right-arrow" />
-                        <span>Know more</span>
-                        <i className="icon-right-arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-4 order-5">
-                <div className="service-box-rotator js-service-box-rotator">
-                  <div className="service-box service-box-greybg service-box--hiddenbtn">
-                    <div className="service-box-caption text-center">
-                      <div className="service-box-icon">
-                        <i className="icon-body" />
-                      </div>
-                      <div className="service-box-icon-bg">
-                        <i className="icon-body" />
-                      </div>
-                      <h3 className="service-box-title">Body Procedures</h3>
-                      <p>
-                        Body Procedures are dedicated to aesthetic and
-                        functional enhancement of your body
-                      </p>
-                      <div className="btn-wrap">
-                        <a href="service-page.html" className="btn">
-                          <i className="icon-right-arrow" />
-                          <span>Know more</span>
-                          <i className="icon-right-arrow" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="service-box service-box-greybg service-box--hiddenbtn">
-                    <div className="service-box-caption text-center">
-                      <div className="service-box-icon">
-                        <i className="icon-mommy" />
-                      </div>
-                      <div className="service-box-icon-bg">
-                        <i className="icon-mommy" />
-                      </div>
-                      <h3 className="service-box-title">Mommy Makeover</h3>
-                      <p>
-                        The goal of a mommy makeover is to restore the shape and
-                        appearance of a woman's body after childbearing.
-                      </p>
-                      <div className="btn-wrap">
-                        <a href="service-page.html" className="btn">
-                          <i className="icon-right-arrow" />
-                          <span>Know more</span>
-                          <i className="icon-right-arrow" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row no-gutters services-box-wrap services-box-wrap-mobile">
-              <div className="service-box-rotator js-service-box-rotator">
-                <div className="service-box service-box-greybg service-box--hiddenbtn">
-                  <div className="service-box-caption text-center">
-                    <div className="service-box-icon">
-                      <i className="icon-man" />
-                    </div>
-                    <div className="service-box-icon-bg">
-                      <i className="icon-man" />
-                    </div>
-                    <h3 className="service-box-title">Male Plastic Surgery</h3>
-                    <p>
-                      Men of all ages and all walks of life are requesting
-                      plastic surgery for cosmetic reasons
-                    </p>
-                    <div className="btn-wrap">
-                      <a href="service-page.html" className="btn">
-                        <i className="icon-right-arrow" />
-                        <span>Know more</span>
-                        <i className="icon-right-arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="service-box service-box-greybg service-box--hiddenbtn">
-                  <div className="service-box-caption text-center">
-                    <div className="service-box-icon">
-                      <i className="icon-injecting" />
-                    </div>
-                    <div className="service-box-icon-bg">
-                      <i className="icon-injecting" />
-                    </div>
-                    <h3 className="service-box-title">
-                      Non-Surgical Procedures
-                    </h3>
-                    <p>
-                      Aesthetic plastic surgery can achieve impressive changes.
-                      We offer a wide variety of non-surgical procedures
-                    </p>
-                    <div className="btn-wrap">
-                      <a href="service-page.html" className="btn">
-                        <i className="icon-right-arrow" />
-                        <span>Know more</span>
-                        <i className="icon-right-arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="service-box service-box-greybg service-box--hiddenbtn">
-                  <div className="service-box-caption text-center">
-                    <div className="service-box-icon">
-                      <i className="icon-body" />
-                    </div>
-                    <div className="service-box-icon-bg">
-                      <i className="icon-body" />
-                    </div>
-                    <h3 className="service-box-title">Body Procedures</h3>
-                    <p>
-                      Body Procedures are dedicated to aesthetic and functional
-                      enhancement of your body
-                    </p>
-                    <div className="btn-wrap">
-                      <a href="service-page.html" className="btn">
-                        <i className="icon-right-arrow" />
-                        <span>Know more</span>
-                        <i className="icon-right-arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="service-box service-box-greybg service-box--hiddenbtn">
-                  <div className="service-box-caption text-center">
-                    <div className="service-box-icon">
-                      <i className="icon-mommy" />
-                    </div>
-                    <div className="service-box-icon-bg">
-                      <i className="icon-mommy" />
-                    </div>
-                    <h3 className="service-box-title">Mommy Makeover</h3>
-                    <p>
-                      The goal of a mommy makeover is to restore the shape and
-                      appearance of a woman's body after childbearing.
-                    </p>
-                    <div className="btn-wrap">
-                      <a href="service-page.html" className="btn">
-                        <i className="icon-right-arrow" />
-                        <span>Know more</span>
-                        <i className="icon-right-arrow" />
-                      </a>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/*//section services*/}
+        {/*//section Our Treatments*/}
 
-        {/*section*/}
-        <div className="section bg-grey py-0">
-          <div className="container-fluid px-0">
-            <div className="row no-gutters flex-wrap flex-md-nowrap">
-              <div className="col-md-7 col-lg-6">
-                <div className="services-wrap1 float-right">
-                  <div className="service-tab-banner d-md-none">
-                    <img src="images/content/banner-right.jpg" alt="" />
-                  </div>
-                  <div className="title-wrap text-center text-sm-left mt-2 mt-md-0">
-                    <h2 className="h1">
-                      Best Skin & Hair Treatments{" "}
-                      <span className="theme-color">in Surat</span>
-                    </h2>
-                  </div>
-                  <p className="text-center text-sm-left">
-                    Looking for acne treatment, laser hair removal, PRP hair
-                    therapy, or pigmentation removal in Surat? Viva Skin Clinic
-                    offers advanced dermatological procedures with modern
-                    technology and expert care.
-                  </p>
-                  <div className="row">
-                    <div className="col-sm-6">
-                      <ul className="circle-list">
-                        <li>Acne & Acne Scar Treatment</li>
-                        <li>Pigmentation & Dark Spot Removal</li>
-                        <li>Hair Fall & PRP Therapy</li>
-                        <li>Fungal Infection Treatment</li>
-                        <li>Laser Hair Removal</li>
-                        <li>Hydrafacial & Medi-Facials</li>
-                      </ul>
-                    </div>
-                    <div className="col-sm-6 mt-1 mt-md-0">
-                      <ul className="circle-list">
-                        <li>Glutathione IV Skin Brightening</li>
-                        <li>Carbon Facial</li>
-                        <li>Stretch Mark & Scar Reduction</li>
-                        <li>Chemical Peels</li>
-                        <li>Skin Tightening (MNRF)</li>
-                        <li>Anti-Aging & Botox Treatments</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-5 col-lg-6 service-tab-banner-alt d-none d-md-block align-items-center bg-cover bg-left"
-                data-bg="images/content/banner-right.jpg"
-              ></div>
-            </div>
-          </div>
-        </div>
-        {/*//section*/}
         {/*section achieved*/}
         <div className="section">
           <div className="container">
@@ -1768,7 +1128,8 @@ export default function Home() {
               <div className="col">
                 <div className="counter-box">
                   <div className="counter-box-icon">
-                    <i className="icon-hand" />
+                    {/* <i className="icon-hand" /> */}
+                    <img src="images/Experience.svg" alt="" className="w-[100px] h-[100px]" />
                   </div>
                   <div className="counter-box-number">
                     <span className="count" data-to={5} data-speed={1500}>
@@ -1785,7 +1146,8 @@ export default function Home() {
               <div className="col">
                 <div className="counter-box">
                   <div className="counter-box-icon">
-                    <i className="icon-tooth-1" />
+                    {/* <i className="icon-tooth-1" /> */}
+                    <img src="images/HappySkin&Hair.svg" alt="" className="w-[100px] h-[100px]" />
                   </div>
                   <div className="counter-box-number">
                     <span className="count" data-to={12000} data-speed={1500}>
@@ -1802,7 +1164,8 @@ export default function Home() {
               <div className="col">
                 <div className="counter-box">
                   <div className="counter-box-icon">
-                    <i className="icon-team" />
+                    {/* <i className="icon-team" /> */}
+                    <img src="images/AdvancedTreatmentTechnologies.svg" alt="" className="w-[100px] h-[100px]" />
                   </div>
                   <div className="counter-box-number">
                     <span className="count" data-to={25} data-speed={1500}>
@@ -1819,7 +1182,8 @@ export default function Home() {
               <div className="col">
                 <div className="counter-box">
                   <div className="counter-box-icon">
-                    <i className="icon-placeholder3" />
+                    {/* <i className="icon-placeholder3" /> */}
+                    <img src="images/PatientSatisfactionRate.svg" alt="" className="w-[100px] h-[100px]" />
                   </div>
                   <div className="counter-box-number">
                     <span className="count" data-to={98} data-speed={1500}>
@@ -1837,149 +1201,6 @@ export default function Home() {
           </div>
         </div>
         {/*//section achieved*/}
-        {/*section faq*/}
-        <div className="section bg-grey py-0">
-          <div className="container-fluid px-0">
-            <div className="row no-gutters">
-              <div
-                className="col-xl-6 banner-left bg-cover align-items-end"
-                style={{
-                  backgroundImage: "url(images/content/banner-left.jpg)",
-                }}
-              />
-              <div className="col-xl-6">
-                <div className="faq-wrap">
-                  <div className="text-center text-md-left">
-                    <div className="title-wrap">
-                      <h2 className="h1">
-                        Patient <span className="theme-color">Information</span>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div
-                    id="faqAccordion1"
-                    className="faq-accordion mt-2 mt-lg-3"
-                    data-children=".faq-item"
-                  >
-                    {faqs.map((faq, index) => (
-                      <div className="faq-item">
-                        <a
-                          data-toggle="collapse"
-                          data-parent="#faqAccordion1"
-                          href={`#faqItem${index + 1}`}
-                          aria-expanded="true"
-                          onClick={() => toggle(index)}
-                        >
-                          <span>{index + 1}.</span>
-                          <span>{faq.question}</span>
-                        </a>
-                        <div
-                          id={`faqItem${index + 1}`}
-                          // className={`collapse ${openIndex === index ? "show" : ""} faq-item-content`}
-                          role="tabpanel"
-                          className={`overflow-hidden transition-all duration-300 faq-item-content ${
-                            openIndex === index
-                              ? "max-h-40 opacity-100 visible"
-                              : "max-h-0 opacity-0"
-                          }`}
-                        >
-                          <div>
-                            <p>{faq.answer}</p>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-
-                    {/* <div className="faq-item">
-                  <a
-                    data-toggle="collapse"
-                    data-parent="#faqAccordion1"
-                    href="#faqItem2"
-                    aria-expanded="false"
-                    className="collapsed"
-                  >
-                    <span>2.</span>
-                    <span>
-                      How do I know if I am visiting the best skin clinic in Surat?
-                    </span>
-                  </a>
-                  <div
-                    id="faqItem2"
-                    className="collapse faq-item-content"
-                    role="tabpanel"
-                  >
-                    <div>
-                      <p>
-                        When searching for the best skin clinic in Surat, look for clinics with highly qualified dermatologists, modern facilities, and positive patient reviews. The best clinics will use state-of-the-art technology and follow the latest medical guidelines to ensure the highest standards of care. Additionally, a top clinic will offer a wide range of treatments tailored to individual skin types and conditions.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <a
-                    data-toggle="collapse"
-                    data-parent="#faqAccordion1"
-                    href="#faqItem3"
-                    aria-expanded="false"
-                    className="collapsed"
-                  >
-                    <span>3.</span>
-                    <span>Are the treatments at the skin clinic in Surat safe?</span>
-                  </a>
-                  <div
-                    id="faqItem3"
-                    className="collapse faq-item-content"
-                    role="tabpanel"
-                  >
-                    <div>
-                      <p>
-                        Yes, the treatments offered at the skin clinic in Surat are safe and performed by experienced dermatologists. The clinic adheres to strict safety protocols and uses FDA-approved equipment and products. Before any procedure, a thorough consultation is conducted to ensure the treatment plan is suitable for your skin type and condition, minimizing any risks.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <a
-                    data-toggle="collapse"
-                    data-parent="#faqAccordion1"
-                    href="#faqItem4"
-                    aria-expanded="false"
-                    className="collapsed"
-                  >
-                    <span>4.</span>
-                    <span>Can this clinic help with anti-aging treatments?</span>
-                  </a>
-                  <div
-                    id="faqItem4"
-                    className="collapse faq-item-content"
-                    role="tabpanel"
-                  >
-                    <div>
-                      <p>
-                        Absolutely. We provides a variety of anti-aging treatments designed to rejuvenate the skin and reduce the appearance of fine lines and wrinkles. These treatments include Botox, dermal fillers, laser resurfacing, and microneedling. Each treatment is customized to meet the specific needs of the patient, helping them achieve a youthful and radiant complexion.
-                      </p>
-                    </div>
-                  </div>
-                </div> */}
-                  </div>
-
-                  <a
-                    href="#"
-                    className="btn mt-3"
-                    data-toggle="modal"
-                    data-target="#modalQuestionForm"
-                  >
-                    <i className="icon-right-arrow" />
-                    <span>Ask Question</span>
-                    <i className="icon-right-arrow" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/*//section faq*/}
         {/*section*/}
         <div className="section">
           <div className="container-fluid px-auto">
@@ -2311,6 +1532,622 @@ export default function Home() {
           </div>
         </div>
         {/*//section*/}
+
+        {/*section Why Choose Us? */}
+        <div className="section">
+          <div className="container-fluid px-0 over-visible">
+            <div className="row white-col-wrap">
+              <div className="col-md-6 white-col">
+                <div className="white-col-inside">
+                  <div className="title-wrap-alt">
+                    <div className="h-sub-lined theme-color">
+                      Why Choose Us?
+                    </div>
+                    <h2 className="h1">
+                      Expert Skin, Hair & Fungal Care with
+                      <span className="theme-color">
+                        Advanced Dermatology Solutions
+                      </span>
+                    </h2>
+                  </div>
+                  <p>
+                    At Viva Skin Clinic, we combine medical expertise with
+                    modern dermatology technology to deliver safe, effective,
+                    and personalized treatments.
+                  </p>
+                  <p>
+                    We focus not just on treating symptoms — but on identifying
+                    the root cause to ensure long-lasting results and healthier
+                    skin.
+                  </p>
+                  <ul className="marker-list-md">
+                    <li>Advanced Skin & Hair Treatments</li>
+                    <li>Modern Laser & Clinical Equipment</li>
+                    <li>Personalized Treatment Plans</li>
+                    <li>Safe & Hygienic Environment</li>
+                  </ul>
+                  <div className="mt-3 mt-lg-5">
+                    <div className="counter-box-grid">
+                      <div className="counter-box-sm">
+                        <div className="counter-box-sm-number">
+                          <span className="count" data-to={5} data-speed={1500}>
+                            5
+                          </span>
+                          <span className="sup">+</span>
+                        </div>
+                        <div className="counter-box-sm-text">
+                          Years of Dermatology Experience
+                        </div>
+                      </div>
+                      <div className="counter-box-sm">
+                        <div className="counter-box-sm-number">
+                          <span
+                            className="count"
+                            data-to={10}
+                            data-speed={1500}
+                          >
+                            10
+                          </span>
+                          <span className="sup">K+</span>
+                        </div>
+                        <div className="counter-box-sm-text">
+                          Happy Patients Treated
+                        </div>
+                      </div>
+                      <div className="counter-box-sm">
+                        <div className="counter-box-sm-number">
+                          <span className="count" data-to={8} data-speed={1500}>
+                            8
+                          </span>
+                          <span className="sup">+</span>
+                        </div>
+                        <div className="counter-box-sm-text">
+                          Specialized Treatments
+                        </div>
+                      </div>
+                      <div className="counter-box-sm">
+                        <div className="counter-box-sm-number">
+                          <span
+                            className="count"
+                            data-to={100}
+                            data-speed={1500}
+                          >
+                            100
+                          </span>
+                          <span className="sup">%</span>
+                        </div>
+                        <div className="counter-box-sm-text">
+                          Patient-Centered Care
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 mb-0 mb-lg-7 image-right-fullheight-col">
+                <div className="image-right-fullheight">
+                  <img src="images/Why Choose Us_ - 960 × 633.png" alt="" />
+                  <div className="image-corner image-corner--left">
+                    <i className="icon-achivement" />
+                  </div>
+                </div>
+                <div className="over-image-card over-image-card--sm pos-center-1">
+                  <div className="over-image-card-icon">
+                    <i className="icon-phone-time" />
+                  </div>
+                  <div className="over-image-card-text">
+                    <h4>Free 15 Min Consultation</h4>
+                    <p>
+                      Use the form to book your FREE 15 min telephone
+                      consultation.
+                    </p>
+                    <a
+                      href="#"
+                      className="btn btn-white btn-white--all"
+                      data-toggle="modal"
+                      data-target="#modalBookingForm"
+                    >
+                      <i className="icon-right-arrow" />
+                      <span>book consultation</span>
+                      <i className="icon-right-arrow" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*//section Why Choose Us? */}
+
+        {/*section Why Choose Us?*/}
+        <div className="hidden section">
+          <div className="container">
+            <div className="title-wrap text-center">
+              <div className="h-sub theme-color">See the difference</div>
+              <h2 className="h1">Why Choose Us?</h2>
+              <div className="h-decor" />
+            </div>
+            <div
+              className="row js-icn-carousel icn-carousel flex-column flex-sm-row text-center text-sm-left"
+              data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}]}'
+            >
+              <div className="col-md">
+                <div className="icn-text">
+                  <div className="icn-text-circle icn-text-circle--sm">
+                    <i className="icon-medicine" />
+                  </div>
+                  <div>
+                    <h5 className="icn-text-title">High Standard of surgery</h5>
+                    <p>
+                      Our surgeons are fellows of the most rigorous and
+                      academically recognized accreditation body for surgeons,
+                      and have completed accredited fellowship training with
+                      high standards of quality.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md">
+                <div className="icn-text">
+                  <div className="icn-text-circle">
+                    <i className="icon-team" />
+                  </div>
+                  <div>
+                    <h5 className="icn-text-title">Committed Surgical Team</h5>
+                    <p>
+                      Our surgeons' expertise covers the broad scope of general,
+                      vascular and trauma surgery. This includes surgery of the
+                      breast, cancers, colon and rectum, endocrine system, and
+                      skin diseases.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md">
+                <div className="icn-text">
+                  <div className="icn-text-circle icn-text-circle--sm">
+                    <i className="icon-syringe" />
+                  </div>
+                  <div>
+                    <h5 className="icn-text-title">Modern Equipment</h5>
+                    <p>
+                      Our practice is equipped with the latest technology that
+                      allows us to perform the most modern treatments. We only
+                      use the premium brand products from the leading
+                      manufacturers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*//section Why Choose Us?*/}
+
+        {/*section About us*/}
+        <div className="section bg-norepeat bg-md-none section-top-padding">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6 pl-lg-3 pt-lg-5">
+                <div className="title-wrap-alt">
+                  <div className="h-sub-lined theme-color">About us</div>
+                  <h2 className="h1">
+                    Personalized Dermatology
+                    <span className="theme-color">Care for Healthier Skin</span>
+                  </h2>
+                </div>
+                <p className="p-bold">
+                  Dr. Akash Satasiya has extensive experience in diagnosing and
+                  treating acne, hair fall, pigmentation disorders, fungal
+                  infections, and advanced aesthetic concerns.
+                </p>
+                <p>
+                  At Viva Skin Clinic, we provide advanced medical care for
+                  skin, hair, and fungal conditions with a patient-focused
+                  approach.
+                </p>
+                <p>
+                  Our clinic combines clinical expertise with modern dermatology
+                  technology to deliver safe, effective, and personalized
+                  treatments tailored to each individual’s needs. We believe
+                  healthy skin is not just about appearance, it reflects overall
+                  well-being and confidence.
+                </p>
+
+                <div className="signature mt-3">
+                  <div className="signature-img">
+                    <img src="images/content/signature.png" alt="Signature" />
+                  </div>
+                  <div className="signature-text">
+                    <h5>Dr. Akash Satasiya</h5>
+                    Naturopathic Doctor, Certified Personal Trainer, Ideal
+                    Protein Coach
+                  </div>
+                </div>
+                <div className="mt-2" />
+                <a
+                  href="#"
+                  className="btn-link btn-link--sm"
+                  data-toggle="modal"
+                  data-target="#modalBookingForm"
+                >
+                  schedule a visit
+                  <i className="icon-right-arrow" />
+                </a>
+              </div>
+              <div className="col-md-6 mb-lg-5 position-relative mt-3 mt-md-0">
+                <div className="img-with-bg">
+                  <img src="images/About us - 485 × 560.png" alt="" />
+                  <img
+                    src="images/content/img-bg.png"
+                    className="img-bg"
+                    alt=""
+                  />
+                </div>
+                <a
+                  href="#"
+                  className="video-btn-circle-left js-video-btn"
+                  data-toggle="modal"
+                  data-src="https://www.youtube.com/embed/uyWt48mWmz0"
+                  data-target="#videoModal"
+                >
+                  <span>
+                    <i className="icon-play" />
+                  </span>
+                </a>
+                {/* Video Modal */}
+                <div className="modal video-modal fade" id="videoModal">
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-body">
+                        <div className="embed-responsive embed-responsive-16by9">
+                          <iframe
+                            data-src="https://www.youtube.com/embed/mDHGaU_jGrQ?start=10"
+                            src="https://www.youtube.com/embed/mDHGaU_jGrQ?start=10"
+                            frameBorder={0}
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            // allowFullScreen=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* //Video Modal */}
+                <div className="over-image-card pos-center">
+                  <div className="over-image-card-icon">
+                    <i className="icon-info" />
+                  </div>
+                  <div className="over-image-card-text">
+                    <h4>Patient Information</h4>
+                    <p>
+                      The following information will be of interest to weight
+                      loss surgery patients.
+                    </p>
+                    <a
+                      href="form-download.html"
+                      className="btn btn-white btn-white--all"
+                    >
+                      <i className="icon-right-arrow" />
+                      <span>download forms</span>
+                      <i className="icon-right-arrow" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*//section About us*/}
+
+        {/*//section welcome*/}
+        {/*section services*/}
+        <div className="section hidden">
+          <div className="container-fluid px-0">
+            <div className="title-wrap text-center">
+              <h2 className="h1">General Services</h2>
+              <div className="h-decor" />
+            </div>
+            <div className="row no-gutters services-box-wrap services-box-wrap-desktop">
+              <div className="col-4 order-1">
+                <div className="service-box-rotator js-service-box-rotator">
+                  <div className="service-box service-box-greybg service-box--hiddenbtn">
+                    <div className="service-box-caption text-center">
+                      <div className="service-box-icon">
+                        <i className="icon-man" />
+                      </div>
+                      <div className="service-box-icon-bg">
+                        <i className="icon-man" />
+                      </div>
+                      <h3 className="service-box-title">
+                        Male Plastic Surgery
+                      </h3>
+                      <p>
+                        Men of all ages and all walks of life are requesting
+                        plastic surgery for cosmetic reasons
+                      </p>
+                      <div className="btn-wrap">
+                        <a href="service-page.html" className="btn">
+                          <i className="icon-right-arrow" />
+                          <span>Know more</span>
+                          <i className="icon-right-arrow" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="service-box service-box-greybg service-box--hiddenbtn">
+                    <div className="service-box-caption text-center">
+                      <div className="service-box-icon">
+                        <i className="icon-injecting" />
+                      </div>
+                      <div className="service-box-icon-bg">
+                        <i className="icon-injecting" />
+                      </div>
+                      <h3 className="service-box-title">
+                        Non-Surgical Procedures
+                      </h3>
+                      <p>
+                        Aesthetic plastic surgery can achieve impressive
+                        changes. We offer a wide variety of non-surgical
+                        procedures
+                      </p>
+                      <div className="btn-wrap">
+                        <a href="service-page.html" className="btn">
+                          <i className="icon-right-arrow" />
+                          <span>Know more</span>
+                          <i className="icon-right-arrow" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-8 order-2">
+                <div className="service-box">
+                  <div
+                    className="service-box-image"
+                    data-bg="images/content/service-02.jpg"
+                  />
+                  <div className="service-box-caption text-center w-50 ml-auto">
+                    <h3 className="service-box-title">Facial Procedures</h3>
+                    <p>
+                      Our Clinic is board certified in facial plastic surgery
+                      and plastic surgery and specializes in facial cosmetic
+                      procedures.
+                    </p>
+                    <div className="btn-wrap">
+                      <a href="service-page.html" className="btn">
+                        <i className="icon-right-arrow" />
+                        <span>Know more</span>
+                        <i className="icon-right-arrow" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-8 order-3 order-lg-4 order-xl-3">
+                <div className="service-box">
+                  <div
+                    className="service-box-image"
+                    data-bg="images/content/service-04.jpg"
+                  />
+                  <div className="service-box-caption text-center w-50 ml-auto">
+                    <h3 className="service-box-title">Breast Procedures</h3>
+                    <p>
+                      Cosmetic breast surgery can help you get the breast
+                      <br /> shape &amp; size you want
+                    </p>
+                    <div className="btn-wrap">
+                      <a href="service-page.html" className="btn">
+                        <i className="icon-right-arrow" />
+                        <span>Know more</span>
+                        <i className="icon-right-arrow" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-4 order-5">
+                <div className="service-box-rotator js-service-box-rotator">
+                  <div className="service-box service-box-greybg service-box--hiddenbtn">
+                    <div className="service-box-caption text-center">
+                      <div className="service-box-icon">
+                        <i className="icon-body" />
+                      </div>
+                      <div className="service-box-icon-bg">
+                        <i className="icon-body" />
+                      </div>
+                      <h3 className="service-box-title">Body Procedures</h3>
+                      <p>
+                        Body Procedures are dedicated to aesthetic and
+                        functional enhancement of your body
+                      </p>
+                      <div className="btn-wrap">
+                        <a href="service-page.html" className="btn">
+                          <i className="icon-right-arrow" />
+                          <span>Know more</span>
+                          <i className="icon-right-arrow" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="service-box service-box-greybg service-box--hiddenbtn">
+                    <div className="service-box-caption text-center">
+                      <div className="service-box-icon">
+                        <i className="icon-mommy" />
+                      </div>
+                      <div className="service-box-icon-bg">
+                        <i className="icon-mommy" />
+                      </div>
+                      <h3 className="service-box-title">Mommy Makeover</h3>
+                      <p>
+                        The goal of a mommy makeover is to restore the shape and
+                        appearance of a woman's body after childbearing.
+                      </p>
+                      <div className="btn-wrap">
+                        <a href="service-page.html" className="btn">
+                          <i className="icon-right-arrow" />
+                          <span>Know more</span>
+                          <i className="icon-right-arrow" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row no-gutters services-box-wrap services-box-wrap-mobile">
+              <div className="service-box-rotator js-service-box-rotator">
+                <div className="service-box service-box-greybg service-box--hiddenbtn">
+                  <div className="service-box-caption text-center">
+                    <div className="service-box-icon">
+                      <i className="icon-man" />
+                    </div>
+                    <div className="service-box-icon-bg">
+                      <i className="icon-man" />
+                    </div>
+                    <h3 className="service-box-title">Male Plastic Surgery</h3>
+                    <p>
+                      Men of all ages and all walks of life are requesting
+                      plastic surgery for cosmetic reasons
+                    </p>
+                    <div className="btn-wrap">
+                      <a href="service-page.html" className="btn">
+                        <i className="icon-right-arrow" />
+                        <span>Know more</span>
+                        <i className="icon-right-arrow" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="service-box service-box-greybg service-box--hiddenbtn">
+                  <div className="service-box-caption text-center">
+                    <div className="service-box-icon">
+                      <i className="icon-injecting" />
+                    </div>
+                    <div className="service-box-icon-bg">
+                      <i className="icon-injecting" />
+                    </div>
+                    <h3 className="service-box-title">
+                      Non-Surgical Procedures
+                    </h3>
+                    <p>
+                      Aesthetic plastic surgery can achieve impressive changes.
+                      We offer a wide variety of non-surgical procedures
+                    </p>
+                    <div className="btn-wrap">
+                      <a href="service-page.html" className="btn">
+                        <i className="icon-right-arrow" />
+                        <span>Know more</span>
+                        <i className="icon-right-arrow" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="service-box service-box-greybg service-box--hiddenbtn">
+                  <div className="service-box-caption text-center">
+                    <div className="service-box-icon">
+                      <i className="icon-body" />
+                    </div>
+                    <div className="service-box-icon-bg">
+                      <i className="icon-body" />
+                    </div>
+                    <h3 className="service-box-title">Body Procedures</h3>
+                    <p>
+                      Body Procedures are dedicated to aesthetic and functional
+                      enhancement of your body
+                    </p>
+                    <div className="btn-wrap">
+                      <a href="service-page.html" className="btn">
+                        <i className="icon-right-arrow" />
+                        <span>Know more</span>
+                        <i className="icon-right-arrow" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="service-box service-box-greybg service-box--hiddenbtn">
+                  <div className="service-box-caption text-center">
+                    <div className="service-box-icon">
+                      <i className="icon-mommy" />
+                    </div>
+                    <div className="service-box-icon-bg">
+                      <i className="icon-mommy" />
+                    </div>
+                    <h3 className="service-box-title">Mommy Makeover</h3>
+                    <p>
+                      The goal of a mommy makeover is to restore the shape and
+                      appearance of a woman's body after childbearing.
+                    </p>
+                    <div className="btn-wrap">
+                      <a href="service-page.html" className="btn">
+                        <i className="icon-right-arrow" />
+                        <span>Know more</span>
+                        <i className="icon-right-arrow" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*//section services*/}
+
+        {/*section*/}
+        <div className="section bg-grey py-0">
+          <div className="container-fluid px-0">
+            <div className="row no-gutters flex-wrap flex-md-nowrap">
+              <div className="col-md-7 col-lg-6">
+                <div className="services-wrap1 float-right">
+                  <div className="service-tab-banner d-md-none">
+                    <img src="images/content/banner-right.jpg" alt="" />
+                  </div>
+                  <div className="title-wrap text-center text-sm-left mt-2 mt-md-0">
+                    <h2 className="h1">
+                      Best Skin & Hair Treatments{" "}
+                      <span className="theme-color">in Surat</span>
+                    </h2>
+                  </div>
+                  <p className="text-center text-sm-left">
+                    Looking for acne treatment, laser hair removal, PRP hair
+                    therapy, or pigmentation removal in Surat? Viva Skin Clinic
+                    offers advanced dermatological procedures with modern
+                    technology and expert care.
+                  </p>
+                  <div className="row">
+                    <div className="col-sm-6">
+                      <ul className="circle-list">
+                        <li>Acne & Acne Scar Treatment</li>
+                        <li>Pigmentation & Dark Spot Removal</li>
+                        <li>Hair Fall & PRP Therapy</li>
+                        <li>Fungal Infection Treatment</li>
+                        <li>Laser Hair Removal</li>
+                        <li>Hydrafacial & Medi-Facials</li>
+                      </ul>
+                    </div>
+                    <div className="col-sm-6 mt-1 mt-md-0">
+                      <ul className="circle-list">
+                        <li>Glutathione IV Skin Brightening</li>
+                        <li>Carbon Facial</li>
+                        <li>Stretch Mark & Scar Reduction</li>
+                        <li>Chemical Peels</li>
+                        <li>Skin Tightening (MNRF)</li>
+                        <li>Anti-Aging & Botox Treatments</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-5 col-lg-6 service-tab-banner-alt d-none d-md-block align-items-center bg-cover bg-left"
+                data-bg="images/BestSkin.png"
+              ></div>
+            </div>
+          </div>
+        </div>
+        {/*//section*/}
+
         {/*section special offers*/}
         <div className="section" id="specialOffer">
           <div className="container">
@@ -2523,14 +2360,15 @@ export default function Home() {
                   <div>
                     <div className="img-before">
                       <img
-                        src="images/content/single-testimonials-author-1-2.jpg"
+                        src="images/Patient1.png"
+                        style={{width: "250px"}}
                         alt=""
                       />
                       <span>BEFORE</span>
                     </div>
                     <div className="img-after">
                       <img
-                        src="images/content/single-testimonials-author-1-1.png"
+                        src="images/Patient2.png"
                         alt=""
                       />
                     </div>
@@ -2769,7 +2607,7 @@ export default function Home() {
             <div
               className="banner-center banner-center--p-sm bg-cover"
               style={{
-                backgroundImage: "url(images/content/banner-center-02.jpg)",
+                backgroundImage: "url(images/TrustYour.png)",
               }}
             >
               <div className="banner-center-caption text-center">
@@ -2794,6 +2632,149 @@ export default function Home() {
           </div>
         </div>
         {/*//section*/}
+        {/*section faq*/}
+        <div className="section bg-grey py-0">
+          <div className="container-fluid px-0">
+            <div className="row no-gutters">
+              <div
+                className="col-xl-6 banner-left bg-cover align-items-end"
+                style={{
+                  backgroundImage: "url(images/content/banner-left.png)",
+                }}
+              />
+              <div className="col-xl-6">
+                <div className="faq-wrap">
+                  <div className="text-center text-md-left">
+                    <div className="title-wrap">
+                      <h2 className="h1">
+                        FAQ <span className="theme-color"></span>
+                      </h2>
+                    </div>
+                  </div>
+
+                  <div
+                    id="faqAccordion1"
+                    className="faq-accordion mt-2 mt-lg-3"
+                    data-children=".faq-item"
+                  >
+                    {faqs.map((faq, index) => (
+                      <div className="faq-item">
+                        <a
+                          data-toggle="collapse"
+                          data-parent="#faqAccordion1"
+                          href={`#faqItem${index + 1}`}
+                          aria-expanded="true"
+                          onClick={() => toggle(index)}
+                        >
+                          <span>{index + 1}.</span>
+                          <span>{faq.question}</span>
+                        </a>
+                        <div
+                          id={`faqItem${index + 1}`}
+                          // className={`collapse ${openIndex === index ? "show" : ""} faq-item-content`}
+                          role="tabpanel"
+                          className={`overflow-hidden transition-all duration-300 faq-item-content ${
+                            openIndex === index
+                              ? "max-h-40 opacity-100 visible"
+                              : "max-h-0 opacity-0"
+                          }`}
+                        >
+                          <div>
+                            <p>{faq.answer}</p>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+
+                    {/* <div className="faq-item">
+                  <a
+                    data-toggle="collapse"
+                    data-parent="#faqAccordion1"
+                    href="#faqItem2"
+                    aria-expanded="false"
+                    className="collapsed"
+                  >
+                    <span>2.</span>
+                    <span>
+                      How do I know if I am visiting the best skin clinic in Surat?
+                    </span>
+                  </a>
+                  <div
+                    id="faqItem2"
+                    className="collapse faq-item-content"
+                    role="tabpanel"
+                  >
+                    <div>
+                      <p>
+                        When searching for the best skin clinic in Surat, look for clinics with highly qualified dermatologists, modern facilities, and positive patient reviews. The best clinics will use state-of-the-art technology and follow the latest medical guidelines to ensure the highest standards of care. Additionally, a top clinic will offer a wide range of treatments tailored to individual skin types and conditions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-item">
+                  <a
+                    data-toggle="collapse"
+                    data-parent="#faqAccordion1"
+                    href="#faqItem3"
+                    aria-expanded="false"
+                    className="collapsed"
+                  >
+                    <span>3.</span>
+                    <span>Are the treatments at the skin clinic in Surat safe?</span>
+                  </a>
+                  <div
+                    id="faqItem3"
+                    className="collapse faq-item-content"
+                    role="tabpanel"
+                  >
+                    <div>
+                      <p>
+                        Yes, the treatments offered at the skin clinic in Surat are safe and performed by experienced dermatologists. The clinic adheres to strict safety protocols and uses FDA-approved equipment and products. Before any procedure, a thorough consultation is conducted to ensure the treatment plan is suitable for your skin type and condition, minimizing any risks.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-item">
+                  <a
+                    data-toggle="collapse"
+                    data-parent="#faqAccordion1"
+                    href="#faqItem4"
+                    aria-expanded="false"
+                    className="collapsed"
+                  >
+                    <span>4.</span>
+                    <span>Can this clinic help with anti-aging treatments?</span>
+                  </a>
+                  <div
+                    id="faqItem4"
+                    className="collapse faq-item-content"
+                    role="tabpanel"
+                  >
+                    <div>
+                      <p>
+                        Absolutely. We provides a variety of anti-aging treatments designed to rejuvenate the skin and reduce the appearance of fine lines and wrinkles. These treatments include Botox, dermal fillers, laser resurfacing, and microneedling. Each treatment is customized to meet the specific needs of the patient, helping them achieve a youthful and radiant complexion.
+                      </p>
+                    </div>
+                  </div>
+                </div> */}
+                  </div>
+
+                  <a
+                    href="#"
+                    className="btn mt-3"
+                    data-toggle="modal"
+                    data-target="#modalQuestionForm"
+                  >
+                    <i className="icon-right-arrow" />
+                    <span>Ask Question</span>
+                    <i className="icon-right-arrow" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*//section faq*/}
         {/*section call us*/}
         <div className="section mt-5">
           <div className="container">
@@ -2836,6 +2817,7 @@ export default function Home() {
         </div>
         {/*//section call us*/}
       </div>
+
       {/*footer*/}
       <div className="footer mt-0">
         <div className="container">

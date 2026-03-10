@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Modals from "./components/Modals";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,17 +44,17 @@ export default function RootLayout({
 
 
 
-{/* Stylesheets */}
+        {/* Stylesheets */}
 
-<link href="vendor2/slick/slick.css" rel="stylesheet" />
-<link href="vendor2/animate/animate.min.css" rel="stylesheet" />
-<link href="icons/style.css" rel="stylesheet" />
-<link
-  href="vendor2/bootstrap-datetimepicker/bootstrap-datetimepicker.css"
-  rel="stylesheet"
-/>
-<link href="css2/style.css" rel="stylesheet" />
-<link href="color/color.css" rel="stylesheet" />
+        <link href="vendor2/slick/slick.css" rel="stylesheet" />
+        <link href="vendor2/animate/animate.min.css" rel="stylesheet" />
+        <link href="icons/style.css" rel="stylesheet" />
+        <link
+          href="vendor2/bootstrap-datetimepicker/bootstrap-datetimepicker.css"
+          rel="stylesheet"
+        />
+        <link href="css2/style.css" rel="stylesheet" />
+        <link href="color/color.css" rel="stylesheet" />
 
 
 
@@ -74,7 +77,18 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="shop-page">
+          <Header />
+          <div className="page-content">
+
+            {children}
+
+          </div>
+          <Footer />
+          <Modals />
+        </div>
+
+
 
         {/* Google Maps Script */}
         <Script
@@ -107,32 +121,32 @@ export default function RootLayout({
 
 
 
-{/* <!-- Vendors --> */}
-<script src="vendor2/jquery/jquery-3.2.1.min.js"></script>
-<script src="vendor2/jquery-migrate/jquery-migrate-3.0.1.min.js"></script>
-<script src="vendor2/cookie/jquery.cookie.js"></script>
-<script src="vendor2/bootstrap-datetimepicker/moment.js"></script>
-<script src="vendor2/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
-<script src="vendor2/popper/popper.min.js"></script>
-<script src="vendor2/bootstrap/bootstrap.min.js"></script>
-<script src="vendor2/waypoints/jquery.waypoints.min.js"></script>
-<script src="vendor2/waypoints/sticky.min.js"></script>
-<script src="vendor2/imagesloaded/imagesloaded.pkgd.min.js"></script>
-{/* <script src="vendor2/slick/slick.min.js"></script> */}
-<script src="vendor2/scroll-with-ease/jquery.scroll-with-ease.min.js"></script>
-<script src="vendor2/countTo/jquery.countTo.js"></script>
-<script src="vendor2/form-validation/jquery.form.js"></script>
-<script src="vendor2/form-validation/jquery.validate.min.js"></script>
-<script src="vendor2/isotope/isotope.pkgd.min.js"></script>
-{/* <!-- Custom Scripts --> */}
-<script src="js2/app.js"></script><script src="/color/color.js"></script>
-<script src="js2/bmi-calculator.js"></script>
-<script src="js2/app-shop.js"></script>
-<script src="form/forms.js"></script>
+        {/* <!-- Vendors --> */}
+        <script src="vendor2/jquery/jquery-3.2.1.min.js"></script>
+        <script src="vendor2/jquery-migrate/jquery-migrate-3.0.1.min.js"></script>
+        <script src="vendor2/cookie/jquery.cookie.js"></script>
+        <script src="vendor2/bootstrap-datetimepicker/moment.js"></script>
+        <script src="vendor2/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
+        <script src="vendor2/popper/popper.min.js"></script>
+        <script src="vendor2/bootstrap/bootstrap.min.js"></script>
+        <script src="vendor2/waypoints/jquery.waypoints.min.js"></script>
+        <script src="vendor2/waypoints/sticky.min.js"></script>
+        <script src="vendor2/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        {/* <script src="vendor2/slick/slick.min.js"></script> */}
+        <script src="vendor2/scroll-with-ease/jquery.scroll-with-ease.min.js"></script>
+        <script src="vendor2/countTo/jquery.countTo.js"></script>
+        <script src="vendor2/form-validation/jquery.form.js"></script>
+        <script src="vendor2/form-validation/jquery.validate.min.js"></script>
+        <script src="vendor2/isotope/isotope.pkgd.min.js"></script>
+        {/* <!-- Custom Scripts --> */}
+        <script src="js2/app.js"></script><script src="/color/color.js"></script>
+        <script src="js2/bmi-calculator.js"></script>
+        <script src="js2/app-shop.js"></script>
+        <script src="form/forms.js"></script>
 
 
 
       </body>
-    </html>
+    </html >
   );
 }

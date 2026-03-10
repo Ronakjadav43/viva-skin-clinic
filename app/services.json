@@ -1,0 +1,483 @@
+{
+  "ServicesList": {
+    "title": "What We Offer",
+    "headline": "Our Services",
+    "description": "With years of experience and backed by state-of-the-art technology,<br>MedSlim is dedicated to helping you be your best self",
+    "services": [
+      {
+        "img": "images/content/services-01.jpg",
+        "slug": "facial-procedures",
+        "name": "Facial Procedures",
+        "description": "Facial cosmetic surgery can help you enhance your appearance at any age",
+        "list": [
+          "Barbed Suture Lift",
+          "Blepharoplasty",
+          "Face Lift – Full",
+          "Facial Implants",
+          "Facial Liposuction",
+          "Hair Restoration",
+          "Laser Facial Resurfacing",
+          "Rhinoplasty"
+        ]
+      },
+      {
+        "img": "images/content/services-02.jpg",
+        "slug": "breast-procedures",
+        "name": "Breast Procedures",
+        "description": "Cosmetic breast surgery can help you get the breast shape & size you want",
+        "list": [
+          "Breast Augmentation",
+          "Breast Lift",
+          "Breast Reduction",
+          "Male Breast Reduction",
+          "Revision Breast Surgery"
+        ]
+      },
+      {
+        "img": "images/content/services-03.jpg",
+        "slug": "male-plastic-surgery",
+        "name": "Male Plastic Surgery",
+        "description": "Men of all ages and all walks of life are requesting plastic surgery for cosmetic reasons",
+        "list": [
+          "Abdominal & Muscle Etching",
+          "Buttock Implants",
+          "Calf Augmentation",
+          "Chin Implant",
+          "Dermal Fillers",
+          "Facelift",
+          "Laser Treatments"
+        ]
+      },
+      {
+        "img": "images/content/services-04.jpg",
+        "slug": "mommy-makeover",
+        "name": "Mommy Makeover",
+        "description": "The goal of a mommy makeover is to restore the shape and appearance of a woman's body after childbearing.",
+        "list": [
+          "Breast augmentation",
+          "Breast lift",
+          "Buttock augmentation",
+          "Liposuction",
+          "Tummy tuck",
+          "Vaginal rejuvenation"
+        ]
+      },
+      {
+        "img": "images/content/services-05.jpg",
+        "slug": "non-surgical-procedures",
+        "name": "Non-Surgical Procedures",
+        "description": "Aesthetic plastic surgery can achieve impressive changes. We offer a wide variety of non-surgical procedures",
+        "list": [
+          "Non-Surgical Body Contouring",
+          "Botulinum Toxin",
+          "Chemical Peels",
+          "Fillers",
+          "Laser Skin Rejuvenation",
+          "Vein Treatments"
+        ]
+      },
+      {
+        "img": "images/content/services-06.jpg",
+        "slug": "body-procedures",
+        "name": "Body Procedures",
+        "description": "Body Procedures are dedicated to aesthetic and functional enhancement of your body",
+        "list": [
+          "Abdominoplasty",
+          "Body Lift",
+          "Buttocks Implants",
+          "Calf Implants",
+          "Labia Minora Reduction",
+          "Fat Transfer",
+          "Liposuction"
+        ]
+      }
+    ]
+  },
+  "ServiceDetails": {
+    "sidebar": {
+      "categories": [
+        {
+          "title": "Cosmetic Dentistry",
+          "isOpen": true,
+          "subItems": [
+            {
+              "label": "Orthodontics",
+              "slug": "orthodontics"
+            },
+            {
+              "label": "White Fillings",
+              "slug": "white-fillings"
+            },
+            {
+              "label": "Porcelain Veneers",
+              "slug": "porcelain-veneers"
+            },
+            {
+              "label": "Teeth Whitening",
+              "slug": "teeth-whitening"
+            },
+            {
+              "label": "Inlays & Onlays",
+              "slug": "inlays-and-onlays"
+            }
+          ]
+        },
+        {
+          "title": "General Dentistry",
+          "slug": "general-dentistry"
+        },
+        {
+          "title": "Children`s Dentistry",
+          "slug": "childrens-dentistry"
+        },
+        {
+          "title": "Dental Implants",
+          "slug": "dental-implants"
+        },
+        {
+          "title": "Orthodontics",
+          "slug": "orthodontics-2"
+        },
+        {
+          "title": "Dental Emergency",
+          "slug": "dental-emergency"
+        },
+        {
+          "title": "Periodontics",
+          "slug": "periodontics"
+        },
+        {
+          "title": "Dental Surgery",
+          "slug": "dental-surgery"
+        },
+        {
+          "title": "Dental Crowns & Bridges",
+          "slug": "dental-crowns-and-bridges"
+        }
+      ],
+      "workingTime": {
+        "title": "Working Time",
+        "text": "Mon-Thu 08:00 - 20:00<br>Friday 07:00 - 22:00<br>Saturday 08:00 - 18:00"
+      },
+      "contactInfo": {
+        "title": "Contact Info",
+        "phone": "1-800-267-0000<br>1-800-267-0001",
+        "email": "info@dentco.net"
+      },
+      "form": {
+        "title": "Ask the Experts",
+        "btnText": "Ask Now"
+      }
+    },
+    "pages": {
+      "white-fillings": {
+        "title": "White Fillings",
+        "img": "/images/content/service-big-01.jpg",
+        "paragraphs": [
+          "One option to improve the cosmetic look of your smile is to have your metal-coloured fillings replaced with tooth-coloured or 'white' fillings. This is a safe procedure that entails one of our dentists removing any decay from your tooth, taking out the metal or amalgam filling and placing a tooth coloured filling instead. The new filling is made from a very hard substance and will withstand the forces in your mouth when you bite and chew over a long period of time. This will allow you to smile without a metallic glint in sight, giving your teeth a more natural appearance overall.",
+          "As dentists we believe prevention is always better than cure and will always encourage and help you to look after your teeth so you don't develop tooth decay in the first place. If you do have decay and need a filling then we recommend white fillings as a good solution that is both aesthetic and functional."
+        ],
+        "section1": {
+          "title": "Why Dental Fillings Are Important",
+          "paragraphs": [
+            "Patients often experience tooth decay because of inappropriate nutritional habits, poor oral care at home or genetics leading to many cavities. Before creating a treatment plan, the dental professional will extensively review the patient’s medical history and their daily routine in efforts to detect any underlying issues such as medical ailments that may be the reason for exaggerated decay formation. According to collected information, a proper course of treatment is chosen including suitable dental materials most beneficial to the individual needs of each patient."
+          ]
+        },
+        "procedure": {
+          "title": "The Procedure of Tooth Filling",
+          "paragraphs": [
+            "Although each procedure varies subtly, there are some basic guidelines to treat cavities, and they are followed by all dental professionals."
+          ],
+          "list": [
+            "The patient is anesthetized using local anesthesia such as Carbocaine for short procedures, Lidocaine for medium length sessions, and Marcaine for multiple fillings. Patients with feelings of anxiety may be offered Nitrous Oxide (laughing gas) for the duration of the treatment. Only in extreme cases, the patient is given IV sedation or general anesthesia and may be referred to a more suitable dental setting such as a hospital.",
+            "The area to be treated is secured by latex sheet that protects the tooth and keeps it dry during the procedure. It also prevents the debris from entering the oral region keeping the patient comfortable. For multiple fillings, when the treatment may require extended period of time, a bite block is used to help the patient keep their mouth open in a relaxed position without any strain on the jaw muscles.",
+            "In case of composite fillings, the shade is chosen to closely mimic the appearance of the surrounding dentition.",
+            "The decay is removed using a high-speed handpiece, slow-speed handpiece, laser or the combination of all three devices. The prepared surface may be etched with an appropriate solution to remove any remaining bacteria and create a porous layer for adhesive purposes. Amalgam or resin material is placed in small increments using hand instruments. The biting surface is then checked and adjusted as necessary."
+          ],
+          "closing": "Filling placement is necessary to treat cavities and prolong the longevity of the natural teeth. With today’s technology continuously improving, new methods are developed to benefit the patients and ensure their positive oral health for a lifetime."
+        },
+        "faqs": [
+          {
+            "id": "faq1",
+            "question": "1. Why do I need a Filling?",
+            "answer": "If the cavity isn’t repaired, this cavity will continue to expand—eventually entering into your nerve canal. This can be excruciatingly painful. However, it can also lead to dire problems such as abscess or infection. Replacing old fillings or fixing chipped teeth can also be required. The most important reason to fix your cavity early on is to avoid a painful and costly root canal."
+          },
+          {
+            "id": "faq2",
+            "question": "2. Composite Filling",
+            "answer": "Doloremque nihil sed ratione ipsa molestiae maxime necessitatibus dolorem in, quasi delectus minima tempora! Tempora quo beatae, id temporibus est sint veritatis suscipit ullam ipsa facilis, sunt dignissimos, perferendis placeat, reiciendis quos ad officia mollitia velit explicabo? Illum nobis minus, doloremque tempore animi tenetur, harum sint quas voluptatum neque tempora dolorum laborum nisi suscipit vel nesciunt, fuga eos iusto maiores corrupti quaerat, deserunt modi culpa totam? Iure voluptates esse, laborum quos similique accusamus neque corporis reiciendis saepe."
+          },
+          {
+            "id": "faq3",
+            "question": "3. How do I know if my teeth are healthy?",
+            "answer": "Nulla, ab quis perferendis tempore natus soluta, saepe, ullam ducimus at dignissimos nihil maiores! Perspiciatis pariatur itaque id sunt perferendis veritatis, adipisci quam voluptatum facilis. Similique saepe aspernatur cumque esse."
+          }
+        ]
+      },
+      "facial-procedures": {
+        "title": "Facial Procedures",
+        "img": "/images/content/services-01.jpg",
+        "paragraphs": [
+          "Facial cosmetic surgery can help you enhance your appearance at any age",
+          "As dentists we believe prevention is always better than cure and will always encourage and help you to look after your teeth so you don't develop tooth decay in the first place. If you do have decay and need a filling then we recommend white fillings as a good solution that is both aesthetic and functional."
+        ],
+        "section1": {
+          "title": "Why Dental Fillings Are Important",
+          "paragraphs": [
+            "Patients often experience tooth decay because of inappropriate nutritional habits, poor oral care at home or genetics leading to many cavities. Before creating a treatment plan, the dental professional will extensively review the patient’s medical history and their daily routine in efforts to detect any underlying issues such as medical ailments that may be the reason for exaggerated decay formation. According to collected information, a proper course of treatment is chosen including suitable dental materials most beneficial to the individual needs of each patient."
+          ]
+        },
+        "procedure": {
+          "title": "The Procedure of Tooth Filling",
+          "paragraphs": [
+            "Although each procedure varies subtly, there are some basic guidelines to treat cavities, and they are followed by all dental professionals."
+          ],
+          "list": [
+            "The patient is anesthetized using local anesthesia such as Carbocaine for short procedures, Lidocaine for medium length sessions, and Marcaine for multiple fillings. Patients with feelings of anxiety may be offered Nitrous Oxide (laughing gas) for the duration of the treatment. Only in extreme cases, the patient is given IV sedation or general anesthesia and may be referred to a more suitable dental setting such as a hospital.",
+            "The area to be treated is secured by latex sheet that protects the tooth and keeps it dry during the procedure. It also prevents the debris from entering the oral region keeping the patient comfortable. For multiple fillings, when the treatment may require extended period of time, a bite block is used to help the patient keep their mouth open in a relaxed position without any strain on the jaw muscles.",
+            "In case of composite fillings, the shade is chosen to closely mimic the appearance of the surrounding dentition.",
+            "The decay is removed using a high-speed handpiece, slow-speed handpiece, laser or the combination of all three devices. The prepared surface may be etched with an appropriate solution to remove any remaining bacteria and create a porous layer for adhesive purposes. Amalgam or resin material is placed in small increments using hand instruments. The biting surface is then checked and adjusted as necessary."
+          ],
+          "closing": "Filling placement is necessary to treat cavities and prolong the longevity of the natural teeth. With today’s technology continuously improving, new methods are developed to benefit the patients and ensure their positive oral health for a lifetime."
+        },
+        "faqs": [
+          {
+            "id": "faq1",
+            "question": "1. Why do I need a Filling?",
+            "answer": "If the cavity isn’t repaired, this cavity will continue to expand—eventually entering into your nerve canal. This can be excruciatingly painful. However, it can also lead to dire problems such as abscess or infection. Replacing old fillings or fixing chipped teeth can also be required. The most important reason to fix your cavity early on is to avoid a painful and costly root canal."
+          },
+          {
+            "id": "faq2",
+            "question": "2. Composite Filling",
+            "answer": "Doloremque nihil sed ratione ipsa molestiae maxime necessitatibus dolorem in, quasi delectus minima tempora! Tempora quo beatae, id temporibus est sint veritatis suscipit ullam ipsa facilis, sunt dignissimos, perferendis placeat, reiciendis quos ad officia mollitia velit explicabo? Illum nobis minus, doloremque tempore animi tenetur, harum sint quas voluptatum neque tempora dolorum laborum nisi suscipit vel nesciunt, fuga eos iusto maiores corrupti quaerat, deserunt modi culpa totam? Iure voluptates esse, laborum quos similique accusamus neque corporis reiciendis saepe."
+          },
+          {
+            "id": "faq3",
+            "question": "3. How do I know if my teeth are healthy?",
+            "answer": "Nulla, ab quis perferendis tempore natus soluta, saepe, ullam ducimus at dignissimos nihil maiores! Perspiciatis pariatur itaque id sunt perferendis veritatis, adipisci quam voluptatum facilis. Similique saepe aspernatur cumque esse."
+          }
+        ]
+      },
+      "breast-procedures": {
+        "title": "Breast Procedures",
+        "img": "/images/content/services-02.jpg",
+        "paragraphs": [
+          "Cosmetic breast surgery can help you get the breast shape & size you want",
+          "As dentists we believe prevention is always better than cure and will always encourage and help you to look after your teeth so you don't develop tooth decay in the first place. If you do have decay and need a filling then we recommend white fillings as a good solution that is both aesthetic and functional."
+        ],
+        "section1": {
+          "title": "Why Dental Fillings Are Important",
+          "paragraphs": [
+            "Patients often experience tooth decay because of inappropriate nutritional habits, poor oral care at home or genetics leading to many cavities. Before creating a treatment plan, the dental professional will extensively review the patient’s medical history and their daily routine in efforts to detect any underlying issues such as medical ailments that may be the reason for exaggerated decay formation. According to collected information, a proper course of treatment is chosen including suitable dental materials most beneficial to the individual needs of each patient."
+          ]
+        },
+        "procedure": {
+          "title": "The Procedure of Tooth Filling",
+          "paragraphs": [
+            "Although each procedure varies subtly, there are some basic guidelines to treat cavities, and they are followed by all dental professionals."
+          ],
+          "list": [
+            "The patient is anesthetized using local anesthesia such as Carbocaine for short procedures, Lidocaine for medium length sessions, and Marcaine for multiple fillings. Patients with feelings of anxiety may be offered Nitrous Oxide (laughing gas) for the duration of the treatment. Only in extreme cases, the patient is given IV sedation or general anesthesia and may be referred to a more suitable dental setting such as a hospital.",
+            "The area to be treated is secured by latex sheet that protects the tooth and keeps it dry during the procedure. It also prevents the debris from entering the oral region keeping the patient comfortable. For multiple fillings, when the treatment may require extended period of time, a bite block is used to help the patient keep their mouth open in a relaxed position without any strain on the jaw muscles.",
+            "In case of composite fillings, the shade is chosen to closely mimic the appearance of the surrounding dentition.",
+            "The decay is removed using a high-speed handpiece, slow-speed handpiece, laser or the combination of all three devices. The prepared surface may be etched with an appropriate solution to remove any remaining bacteria and create a porous layer for adhesive purposes. Amalgam or resin material is placed in small increments using hand instruments. The biting surface is then checked and adjusted as necessary."
+          ],
+          "closing": "Filling placement is necessary to treat cavities and prolong the longevity of the natural teeth. With today’s technology continuously improving, new methods are developed to benefit the patients and ensure their positive oral health for a lifetime."
+        },
+        "faqs": [
+          {
+            "id": "faq1",
+            "question": "1. Why do I need a Filling?",
+            "answer": "If the cavity isn’t repaired, this cavity will continue to expand—eventually entering into your nerve canal. This can be excruciatingly painful. However, it can also lead to dire problems such as abscess or infection. Replacing old fillings or fixing chipped teeth can also be required. The most important reason to fix your cavity early on is to avoid a painful and costly root canal."
+          },
+          {
+            "id": "faq2",
+            "question": "2. Composite Filling",
+            "answer": "Doloremque nihil sed ratione ipsa molestiae maxime necessitatibus dolorem in, quasi delectus minima tempora! Tempora quo beatae, id temporibus est sint veritatis suscipit ullam ipsa facilis, sunt dignissimos, perferendis placeat, reiciendis quos ad officia mollitia velit explicabo? Illum nobis minus, doloremque tempore animi tenetur, harum sint quas voluptatum neque tempora dolorum laborum nisi suscipit vel nesciunt, fuga eos iusto maiores corrupti quaerat, deserunt modi culpa totam? Iure voluptates esse, laborum quos similique accusamus neque corporis reiciendis saepe."
+          },
+          {
+            "id": "faq3",
+            "question": "3. How do I know if my teeth are healthy?",
+            "answer": "Nulla, ab quis perferendis tempore natus soluta, saepe, ullam ducimus at dignissimos nihil maiores! Perspiciatis pariatur itaque id sunt perferendis veritatis, adipisci quam voluptatum facilis. Similique saepe aspernatur cumque esse."
+          }
+        ]
+      },
+      "male-plastic-surgery": {
+        "title": "Male Plastic Surgery",
+        "img": "/images/content/services-03.jpg",
+        "paragraphs": [
+          "Men of all ages and all walks of life are requesting plastic surgery for cosmetic reasons",
+          "As dentists we believe prevention is always better than cure and will always encourage and help you to look after your teeth so you don't develop tooth decay in the first place. If you do have decay and need a filling then we recommend white fillings as a good solution that is both aesthetic and functional."
+        ],
+        "section1": {
+          "title": "Why Dental Fillings Are Important",
+          "paragraphs": [
+            "Patients often experience tooth decay because of inappropriate nutritional habits, poor oral care at home or genetics leading to many cavities. Before creating a treatment plan, the dental professional will extensively review the patient’s medical history and their daily routine in efforts to detect any underlying issues such as medical ailments that may be the reason for exaggerated decay formation. According to collected information, a proper course of treatment is chosen including suitable dental materials most beneficial to the individual needs of each patient."
+          ]
+        },
+        "procedure": {
+          "title": "The Procedure of Tooth Filling",
+          "paragraphs": [
+            "Although each procedure varies subtly, there are some basic guidelines to treat cavities, and they are followed by all dental professionals."
+          ],
+          "list": [
+            "The patient is anesthetized using local anesthesia such as Carbocaine for short procedures, Lidocaine for medium length sessions, and Marcaine for multiple fillings. Patients with feelings of anxiety may be offered Nitrous Oxide (laughing gas) for the duration of the treatment. Only in extreme cases, the patient is given IV sedation or general anesthesia and may be referred to a more suitable dental setting such as a hospital.",
+            "The area to be treated is secured by latex sheet that protects the tooth and keeps it dry during the procedure. It also prevents the debris from entering the oral region keeping the patient comfortable. For multiple fillings, when the treatment may require extended period of time, a bite block is used to help the patient keep their mouth open in a relaxed position without any strain on the jaw muscles.",
+            "In case of composite fillings, the shade is chosen to closely mimic the appearance of the surrounding dentition.",
+            "The decay is removed using a high-speed handpiece, slow-speed handpiece, laser or the combination of all three devices. The prepared surface may be etched with an appropriate solution to remove any remaining bacteria and create a porous layer for adhesive purposes. Amalgam or resin material is placed in small increments using hand instruments. The biting surface is then checked and adjusted as necessary."
+          ],
+          "closing": "Filling placement is necessary to treat cavities and prolong the longevity of the natural teeth. With today’s technology continuously improving, new methods are developed to benefit the patients and ensure their positive oral health for a lifetime."
+        },
+        "faqs": [
+          {
+            "id": "faq1",
+            "question": "1. Why do I need a Filling?",
+            "answer": "If the cavity isn’t repaired, this cavity will continue to expand—eventually entering into your nerve canal. This can be excruciatingly painful. However, it can also lead to dire problems such as abscess or infection. Replacing old fillings or fixing chipped teeth can also be required. The most important reason to fix your cavity early on is to avoid a painful and costly root canal."
+          },
+          {
+            "id": "faq2",
+            "question": "2. Composite Filling",
+            "answer": "Doloremque nihil sed ratione ipsa molestiae maxime necessitatibus dolorem in, quasi delectus minima tempora! Tempora quo beatae, id temporibus est sint veritatis suscipit ullam ipsa facilis, sunt dignissimos, perferendis placeat, reiciendis quos ad officia mollitia velit explicabo? Illum nobis minus, doloremque tempore animi tenetur, harum sint quas voluptatum neque tempora dolorum laborum nisi suscipit vel nesciunt, fuga eos iusto maiores corrupti quaerat, deserunt modi culpa totam? Iure voluptates esse, laborum quos similique accusamus neque corporis reiciendis saepe."
+          },
+          {
+            "id": "faq3",
+            "question": "3. How do I know if my teeth are healthy?",
+            "answer": "Nulla, ab quis perferendis tempore natus soluta, saepe, ullam ducimus at dignissimos nihil maiores! Perspiciatis pariatur itaque id sunt perferendis veritatis, adipisci quam voluptatum facilis. Similique saepe aspernatur cumque esse."
+          }
+        ]
+      },
+      "mommy-makeover": {
+        "title": "Mommy Makeover",
+        "img": "/images/content/services-04.jpg",
+        "paragraphs": [
+          "The goal of a mommy makeover is to restore the shape and appearance of a woman's body after childbearing.",
+          "As dentists we believe prevention is always better than cure and will always encourage and help you to look after your teeth so you don't develop tooth decay in the first place. If you do have decay and need a filling then we recommend white fillings as a good solution that is both aesthetic and functional."
+        ],
+        "section1": {
+          "title": "Why Dental Fillings Are Important",
+          "paragraphs": [
+            "Patients often experience tooth decay because of inappropriate nutritional habits, poor oral care at home or genetics leading to many cavities. Before creating a treatment plan, the dental professional will extensively review the patient’s medical history and their daily routine in efforts to detect any underlying issues such as medical ailments that may be the reason for exaggerated decay formation. According to collected information, a proper course of treatment is chosen including suitable dental materials most beneficial to the individual needs of each patient."
+          ]
+        },
+        "procedure": {
+          "title": "The Procedure of Tooth Filling",
+          "paragraphs": [
+            "Although each procedure varies subtly, there are some basic guidelines to treat cavities, and they are followed by all dental professionals."
+          ],
+          "list": [
+            "The patient is anesthetized using local anesthesia such as Carbocaine for short procedures, Lidocaine for medium length sessions, and Marcaine for multiple fillings. Patients with feelings of anxiety may be offered Nitrous Oxide (laughing gas) for the duration of the treatment. Only in extreme cases, the patient is given IV sedation or general anesthesia and may be referred to a more suitable dental setting such as a hospital.",
+            "The area to be treated is secured by latex sheet that protects the tooth and keeps it dry during the procedure. It also prevents the debris from entering the oral region keeping the patient comfortable. For multiple fillings, when the treatment may require extended period of time, a bite block is used to help the patient keep their mouth open in a relaxed position without any strain on the jaw muscles.",
+            "In case of composite fillings, the shade is chosen to closely mimic the appearance of the surrounding dentition.",
+            "The decay is removed using a high-speed handpiece, slow-speed handpiece, laser or the combination of all three devices. The prepared surface may be etched with an appropriate solution to remove any remaining bacteria and create a porous layer for adhesive purposes. Amalgam or resin material is placed in small increments using hand instruments. The biting surface is then checked and adjusted as necessary."
+          ],
+          "closing": "Filling placement is necessary to treat cavities and prolong the longevity of the natural teeth. With today’s technology continuously improving, new methods are developed to benefit the patients and ensure their positive oral health for a lifetime."
+        },
+        "faqs": [
+          {
+            "id": "faq1",
+            "question": "1. Why do I need a Filling?",
+            "answer": "If the cavity isn’t repaired, this cavity will continue to expand—eventually entering into your nerve canal. This can be excruciatingly painful. However, it can also lead to dire problems such as abscess or infection. Replacing old fillings or fixing chipped teeth can also be required. The most important reason to fix your cavity early on is to avoid a painful and costly root canal."
+          },
+          {
+            "id": "faq2",
+            "question": "2. Composite Filling",
+            "answer": "Doloremque nihil sed ratione ipsa molestiae maxime necessitatibus dolorem in, quasi delectus minima tempora! Tempora quo beatae, id temporibus est sint veritatis suscipit ullam ipsa facilis, sunt dignissimos, perferendis placeat, reiciendis quos ad officia mollitia velit explicabo? Illum nobis minus, doloremque tempore animi tenetur, harum sint quas voluptatum neque tempora dolorum laborum nisi suscipit vel nesciunt, fuga eos iusto maiores corrupti quaerat, deserunt modi culpa totam? Iure voluptates esse, laborum quos similique accusamus neque corporis reiciendis saepe."
+          },
+          {
+            "id": "faq3",
+            "question": "3. How do I know if my teeth are healthy?",
+            "answer": "Nulla, ab quis perferendis tempore natus soluta, saepe, ullam ducimus at dignissimos nihil maiores! Perspiciatis pariatur itaque id sunt perferendis veritatis, adipisci quam voluptatum facilis. Similique saepe aspernatur cumque esse."
+          }
+        ]
+      },
+      "non-surgical-procedures": {
+        "title": "Non-Surgical Procedures",
+        "img": "/images/content/services-05.jpg",
+        "paragraphs": [
+          "Aesthetic plastic surgery can achieve impressive changes. We offer a wide variety of non-surgical procedures",
+          "As dentists we believe prevention is always better than cure and will always encourage and help you to look after your teeth so you don't develop tooth decay in the first place. If you do have decay and need a filling then we recommend white fillings as a good solution that is both aesthetic and functional."
+        ],
+        "section1": {
+          "title": "Why Dental Fillings Are Important",
+          "paragraphs": [
+            "Patients often experience tooth decay because of inappropriate nutritional habits, poor oral care at home or genetics leading to many cavities. Before creating a treatment plan, the dental professional will extensively review the patient’s medical history and their daily routine in efforts to detect any underlying issues such as medical ailments that may be the reason for exaggerated decay formation. According to collected information, a proper course of treatment is chosen including suitable dental materials most beneficial to the individual needs of each patient."
+          ]
+        },
+        "procedure": {
+          "title": "The Procedure of Tooth Filling",
+          "paragraphs": [
+            "Although each procedure varies subtly, there are some basic guidelines to treat cavities, and they are followed by all dental professionals."
+          ],
+          "list": [
+            "The patient is anesthetized using local anesthesia such as Carbocaine for short procedures, Lidocaine for medium length sessions, and Marcaine for multiple fillings. Patients with feelings of anxiety may be offered Nitrous Oxide (laughing gas) for the duration of the treatment. Only in extreme cases, the patient is given IV sedation or general anesthesia and may be referred to a more suitable dental setting such as a hospital.",
+            "The area to be treated is secured by latex sheet that protects the tooth and keeps it dry during the procedure. It also prevents the debris from entering the oral region keeping the patient comfortable. For multiple fillings, when the treatment may require extended period of time, a bite block is used to help the patient keep their mouth open in a relaxed position without any strain on the jaw muscles.",
+            "In case of composite fillings, the shade is chosen to closely mimic the appearance of the surrounding dentition.",
+            "The decay is removed using a high-speed handpiece, slow-speed handpiece, laser or the combination of all three devices. The prepared surface may be etched with an appropriate solution to remove any remaining bacteria and create a porous layer for adhesive purposes. Amalgam or resin material is placed in small increments using hand instruments. The biting surface is then checked and adjusted as necessary."
+          ],
+          "closing": "Filling placement is necessary to treat cavities and prolong the longevity of the natural teeth. With today’s technology continuously improving, new methods are developed to benefit the patients and ensure their positive oral health for a lifetime."
+        },
+        "faqs": [
+          {
+            "id": "faq1",
+            "question": "1. Why do I need a Filling?",
+            "answer": "If the cavity isn’t repaired, this cavity will continue to expand—eventually entering into your nerve canal. This can be excruciatingly painful. However, it can also lead to dire problems such as abscess or infection. Replacing old fillings or fixing chipped teeth can also be required. The most important reason to fix your cavity early on is to avoid a painful and costly root canal."
+          },
+          {
+            "id": "faq2",
+            "question": "2. Composite Filling",
+            "answer": "Doloremque nihil sed ratione ipsa molestiae maxime necessitatibus dolorem in, quasi delectus minima tempora! Tempora quo beatae, id temporibus est sint veritatis suscipit ullam ipsa facilis, sunt dignissimos, perferendis placeat, reiciendis quos ad officia mollitia velit explicabo? Illum nobis minus, doloremque tempore animi tenetur, harum sint quas voluptatum neque tempora dolorum laborum nisi suscipit vel nesciunt, fuga eos iusto maiores corrupti quaerat, deserunt modi culpa totam? Iure voluptates esse, laborum quos similique accusamus neque corporis reiciendis saepe."
+          },
+          {
+            "id": "faq3",
+            "question": "3. How do I know if my teeth are healthy?",
+            "answer": "Nulla, ab quis perferendis tempore natus soluta, saepe, ullam ducimus at dignissimos nihil maiores! Perspiciatis pariatur itaque id sunt perferendis veritatis, adipisci quam voluptatum facilis. Similique saepe aspernatur cumque esse."
+          }
+        ]
+      },
+      "body-procedures": {
+        "title": "Body Procedures",
+        "img": "/images/content/services-06.jpg",
+        "paragraphs": [
+          "Body Procedures are dedicated to aesthetic and functional enhancement of your body",
+          "As dentists we believe prevention is always better than cure and will always encourage and help you to look after your teeth so you don't develop tooth decay in the first place. If you do have decay and need a filling then we recommend white fillings as a good solution that is both aesthetic and functional."
+        ],
+        "section1": {
+          "title": "Why Dental Fillings Are Important",
+          "paragraphs": [
+            "Patients often experience tooth decay because of inappropriate nutritional habits, poor oral care at home or genetics leading to many cavities. Before creating a treatment plan, the dental professional will extensively review the patient’s medical history and their daily routine in efforts to detect any underlying issues such as medical ailments that may be the reason for exaggerated decay formation. According to collected information, a proper course of treatment is chosen including suitable dental materials most beneficial to the individual needs of each patient."
+          ]
+        },
+        "procedure": {
+          "title": "The Procedure of Tooth Filling",
+          "paragraphs": [
+            "Although each procedure varies subtly, there are some basic guidelines to treat cavities, and they are followed by all dental professionals."
+          ],
+          "list": [
+            "The patient is anesthetized using local anesthesia such as Carbocaine for short procedures, Lidocaine for medium length sessions, and Marcaine for multiple fillings. Patients with feelings of anxiety may be offered Nitrous Oxide (laughing gas) for the duration of the treatment. Only in extreme cases, the patient is given IV sedation or general anesthesia and may be referred to a more suitable dental setting such as a hospital.",
+            "The area to be treated is secured by latex sheet that protects the tooth and keeps it dry during the procedure. It also prevents the debris from entering the oral region keeping the patient comfortable. For multiple fillings, when the treatment may require extended period of time, a bite block is used to help the patient keep their mouth open in a relaxed position without any strain on the jaw muscles.",
+            "In case of composite fillings, the shade is chosen to closely mimic the appearance of the surrounding dentition.",
+            "The decay is removed using a high-speed handpiece, slow-speed handpiece, laser or the combination of all three devices. The prepared surface may be etched with an appropriate solution to remove any remaining bacteria and create a porous layer for adhesive purposes. Amalgam or resin material is placed in small increments using hand instruments. The biting surface is then checked and adjusted as necessary."
+          ],
+          "closing": "Filling placement is necessary to treat cavities and prolong the longevity of the natural teeth. With today’s technology continuously improving, new methods are developed to benefit the patients and ensure their positive oral health for a lifetime."
+        },
+        "faqs": [
+          {
+            "id": "faq1",
+            "question": "1. Why do I need a Filling?",
+            "answer": "If the cavity isn’t repaired, this cavity will continue to expand—eventually entering into your nerve canal. This can be excruciatingly painful. However, it can also lead to dire problems such as abscess or infection. Replacing old fillings or fixing chipped teeth can also be required. The most important reason to fix your cavity early on is to avoid a painful and costly root canal."
+          },
+          {
+            "id": "faq2",
+            "question": "2. Composite Filling",
+            "answer": "Doloremque nihil sed ratione ipsa molestiae maxime necessitatibus dolorem in, quasi delectus minima tempora! Tempora quo beatae, id temporibus est sint veritatis suscipit ullam ipsa facilis, sunt dignissimos, perferendis placeat, reiciendis quos ad officia mollitia velit explicabo? Illum nobis minus, doloremque tempore animi tenetur, harum sint quas voluptatum neque tempora dolorum laborum nisi suscipit vel nesciunt, fuga eos iusto maiores corrupti quaerat, deserunt modi culpa totam? Iure voluptates esse, laborum quos similique accusamus neque corporis reiciendis saepe."
+          },
+          {
+            "id": "faq3",
+            "question": "3. How do I know if my teeth are healthy?",
+            "answer": "Nulla, ab quis perferendis tempore natus soluta, saepe, ullam ducimus at dignissimos nihil maiores! Perspiciatis pariatur itaque id sunt perferendis veritatis, adipisci quam voluptatum facilis. Similique saepe aspernatur cumque esse."
+          }
+        ]
+      }
+    }
+  }
+}

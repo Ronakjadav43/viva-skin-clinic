@@ -404,28 +404,16 @@
       {
         "id": 1,
         "label": "About Us",
-        "url": "about"
+        "url": "/about"
       },
       {
         "id": 2,
         "label": "Services",
-        "url": "services.html",
+        "url": "/services",
         "subLinks": [
           {
             "label": "All Services",
-            "url": "services.html"
-          },
-          {
-            "label": "Service Page",
-            "url": "service-page.html"
-          },
-          {
-            "label": "Prices",
-            "url": "prices.html"
-          },
-          {
-            "label": "Online Shop",
-            "url": "shop-listing.html"
+            "url": "/services"
           }
         ]
       },

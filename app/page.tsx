@@ -21,28 +21,24 @@ import Modals from "./components/Modals";
 
 export default function Home() {
   return (
-    <div className="shop-page">
-      <Header />
-      <div className="page-content">
-        <QuickLinks />
-        <HeroSlider />
-        <Welcome />
-        <OurTreatments />
-        <ClinicFigures />
-        <BeforeAfterGallery />
-        <WhyChooseUs />
-        <AboutUs />
-        <GeneralServices />
-        <BestSkinTreatments />
-        <SpecialOffers />
-        <Testimonials />
-        <FromBlog />
-        <TrustYourAppearance />
-        <FAQ />
-        <CallUs />
-      </div>
-      <Footer />
-      <Modals />
-    </div>
+    <>
+      <QuickLinks />
+      <HeroSlider />
+      <Welcome />
+      <OurTreatments />
+      <ClinicFigures />
+      <BeforeAfterGallery />
+      <WhyChooseUs />
+      <AboutUs />
+      <GeneralServices />
+      <BestSkinTreatments />
+      <SpecialOffers />
+      <Testimonials />
+      <FromBlog />
+      <TrustYourAppearance />
+      <FAQ />
+      <CallUs />
+    </>
+
   );
 }

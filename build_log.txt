@@ -1,0 +1,32 @@
+﻿
+> viva-skin-clinic@0.1.0 build
+> next build
+
+Ôû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+Ô£ô Compiled successfully in 1550.1ms
+  Running TypeScript ...
+  Collecting page data using 15 workers ...
+  Generating static pages using 15 workers (0/13) ...
+  Generating static pages using 15 workers (3/13) 
+  Generating static pages using 15 workers (6/13) 
+  Generating static pages using 15 workers (9/13) 
+Ô£ô Generating static pages using 15 workers (13/13) in 667.4ms
+  Finalizing page optimization ...
+
+Route (app)
+Ôöî Ôùï /
+Ôö£ Ôùï /_not-found
+Ôö£ Ôùï /about
+Ôö£ Ôùï /services
+Ôöö ÔùÅ /services/[slug]
+  Ôö£ /services/white-fillings
+  Ôö£ /services/facial-procedures
+  Ôö£ /services/breast-procedures
+  Ôöö [+4 more paths]
+
+
+Ôùï  (Static)  prerendered as static content
+ÔùÅ  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

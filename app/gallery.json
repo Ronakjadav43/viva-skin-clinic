@@ -1,0 +1,67 @@
+{
+  "Header": {
+    "subTitle": "Our Clients Stories",
+    "title": "Smiles Gallery",
+    "description": "We love to see our patients smile! Here are some of our best before-and-after pictures,<br>all in one fantastic Smile Gallery"
+  },
+  "Filters": [
+    { "label": "All", "value": "*" },
+    { "label": "Crowns", "value": ".category1" },
+    { "label": "Bridges", "value": ".category2" },
+    { "label": "Dental Implants", "value": ".category3" },
+    { "label": "Cosmetic Filling", "value": ".category4" },
+    { "label": "Lumineers", "value": ".category5" },
+    { "label": "Dentures", "value": ".category6" },
+    { "label": "Porcelain Veneers", "value": ".category7" },
+    { "label": "Diamond Polish", "value": ".category8" }
+  ],
+  "Grid": [
+    {
+      "classes": "gallery-item category2 category7",
+      "img1": "images/content/gallery/smile-1-1.jpg",
+      "img2": "images/content/gallery/smile-1-2.jpg"
+    },
+    {
+      "classes": "gallery-item category1 category5 category8",
+      "img1": "images/content/gallery/smile-2-1.jpg",
+      "img2": "images/content/gallery/smile-2-2.jpg"
+    },
+    {
+      "classes": "gallery-item category2 category4 category3",
+      "img1": "images/content/gallery/smile-3-1.jpg",
+      "img2": "images/content/gallery/smile-3-2.jpg"
+    },
+    {
+      "classes": "gallery-item category4 category8 category6",
+      "img1": "images/content/gallery/smile-4-1.jpg",
+      "img2": "images/content/gallery/smile-4-2.jpg"
+    },
+    {
+      "classes": "gallery-item category3 category7",
+      "img1": "images/content/gallery/smile-5-1.jpg",
+      "img2": "images/content/gallery/smile-5-2.jpg"
+    },
+    {
+      "classes": "gallery-item category4 category7 category3",
+      "img1": "images/content/gallery/smile-6-1.jpg",
+      "img2": "images/content/gallery/smile-6-2.jpg"
+    },
+    {
+      "classes": "gallery-item category1 category8",
+      "img1": "images/content/gallery/smile-7-1.jpg",
+      "img2": "images/content/gallery/smile-7-2.jpg"
+    },
+    {
+      "classes": "gallery-item category2 category6",
+      "img1": "images/content/gallery/smile-8-1.jpg",
+      "img2": "images/content/gallery/smile-8-2.jpg"
+    }
+  ],
+  "CallUsBanner": {
+    "title1": "Want the Same",
+    "title2": "Wonderful Smile?",
+    "description": "We provide advanced, trusted dental care delivered by a dedicated team in our modern practice.",
+    "phone": "1-800-267-0000",
+    "img": "images/content/banner-callus-2.jpg"
+  }
+}

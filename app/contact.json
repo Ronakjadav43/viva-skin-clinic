@@ -1,0 +1,72 @@
+{
+  "Location": {
+    "title": "Clinic Location",
+    "icon": "icon-placeholder2",
+    "details": "DentCo Dental Clinic<br>1560 Holden Street San Diego,<br>CA 92139"
+  },
+  "ContactInfo": {
+    "title": "Contact Info",
+    "phoneLabel": "Phone:",
+    "phones": [
+      "1-800-267-0000",
+      "1-800-267-0001"
+    ],
+    "faxLabel": "Fax:",
+    "fax": "(957) 267-0020",
+    "emailIcon": "icon-black-envelope",
+    "email": "info@dentco.net"
+  },
+  "WorkingTime": {
+    "title": "Working Time",
+    "icon": "icon-clock",
+    "hours": [
+      {
+        "day": "Mon-Thu",
+        "time": "08:00 - 20:00"
+      },
+      {
+        "day": "Friday",
+        "time": "07:00 - 22:00"
+      },
+      {
+        "day": "Saturday",
+        "time": "08:00 - 18:00"
+      }
+    ]
+  },
+  "FormSection": {
+    "title": "Get In Touch With Us",
+    "description1": "For general questions, please send us a message and we’ll get right back to you. You can also call us directly to speak with a member of our service team or insurance expert.",
+    "description2": "Fields marked with a * are required.",
+    "socialTitle": "Stay Connected",
+    "socialLinks": [
+      {
+        "icon": "icon-facebook-logo",
+        "url": "https://www.facebook.com/"
+      },
+      {
+        "icon": "icon-twitter-logo",
+        "url": "https://www.twitter.com/"
+      },
+      {
+        "icon": "icon-google-logo",
+        "url": "https://add.google.com/"
+      },
+      {
+        "icon": "icon-instagram",
+        "url": "https://www.instagram.com/"
+      }
+    ],
+    "formConfig": {
+      "successMessage": "Your message was sent successfully!",
+      "errorMessage": "Something went wrong, try refreshing and submitting the form again.",
+      "inputs": [
+        { "name": "name", "placeholder": "Your name*", "type": "text" },
+        { "name": "email", "placeholder": "Email*", "type": "email" },
+        { "name": "phone", "placeholder": "Your Phone", "type": "tel" }
+      ],
+      "textAlign": "Message",
+      "submitButton": "Send message"
+    }
+  }
+}

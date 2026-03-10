@@ -94,7 +94,7 @@ export default function Header() {
               <span className="icon-menu" />
             </button>
             <div className="col-lg-auto col-lg-2 d-flex align-items-lg-center">
-              <a href="index-2.html" className="header-logo">
+              <a href="/" className="header-logo">
                 <img src="images/VivaLogo.png" alt="" className="img-fluid" />
               </a>
             </div>
@@ -102,9 +102,8 @@ export default function Header() {
               <div className="header-nav js-header-nav">
                 <nav className="navbar navbar-expand-lg btco-hover-menu">
                   <div
-                    className={`navbar-collapse justify-content-end visible ${
-                      isOpen ? "" : "collapse"
-                    }`}
+                    className={`navbar-collapse justify-content-end visible ${isOpen ? "" : "collapse"
+                      }`}
                     id="navbarNavDropdown"
                   >
                     <ul className="navbar-nav">
@@ -114,9 +113,8 @@ export default function Header() {
                           key={nav.id}
                         >
                           <a
-                            className={`nav-link ${
-                              nav.subLinks ? "dropdown-toggle" : ""
-                            }`}
+                            className={`nav-link ${nav.subLinks ? "dropdown-toggle" : ""
+                              }`}
                             href={nav.url}
                             data-toggle={nav.subLinks ? "dropdown" : undefined}
                           >
@@ -128,7 +126,7 @@ export default function Header() {
                                 <li key={idx}>
                                   <a className="dropdown-item" href={sub.url}>
                                     {sub.label}
-                                 </a>
+                                  </a>
                                 </li>
                               ))}
                             </ul>

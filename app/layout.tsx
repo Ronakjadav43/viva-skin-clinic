@@ -53,6 +53,7 @@ export default function RootLayout({
           href="vendor2/bootstrap-datetimepicker/bootstrap-datetimepicker.css"
           rel="stylesheet"
         />
+        <link href="vendor2/twentytwenty/twentytwenty.css" rel="stylesheet" />
         <link href="css2/style.css" rel="stylesheet" />
         <link href="color/color.css" rel="stylesheet" />
 
@@ -111,38 +112,15 @@ export default function RootLayout({
         <Script src="vendor/scroll-with-ease/jquery.scroll-with-ease.min.js"></Script>
         <Script src="vendor/countTo/jquery.countTo.js"></Script>
         <Script src="vendor/form-validation/jquery.form.js"></Script>
-        <Script src="vendor/form-validation/jquery.validate.min.js"></Script>
+        <Script src="vendor/isotope/isotope.pkgd.min.js"></Script>
+        <Script src="vendor/twentytwenty/jquery.event.move.js"></Script>
+        <Script src="vendor/twentytwenty/jquery.twentytwenty.js"></Script>
         {/* <!-- Custom Scripts --> */}
         <Script src="js/app.js"></Script>
         <Script src="color/color.js"></Script>
 
         <Script src="js/app-shop.js"></Script>
         <Script src="form/forms.js"></Script>
-
-
-
-        {/* <!-- Vendors --> */}
-        <script src="vendor2/jquery/jquery-3.2.1.min.js"></script>
-        <script src="vendor2/jquery-migrate/jquery-migrate-3.0.1.min.js"></script>
-        <script src="vendor2/cookie/jquery.cookie.js"></script>
-        <script src="vendor2/bootstrap-datetimepicker/moment.js"></script>
-        <script src="vendor2/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
-        <script src="vendor2/popper/popper.min.js"></script>
-        <script src="vendor2/bootstrap/bootstrap.min.js"></script>
-        <script src="vendor2/waypoints/jquery.waypoints.min.js"></script>
-        <script src="vendor2/waypoints/sticky.min.js"></script>
-        <script src="vendor2/imagesloaded/imagesloaded.pkgd.min.js"></script>
-        {/* <script src="vendor2/slick/slick.min.js"></script> */}
-        <script src="vendor2/scroll-with-ease/jquery.scroll-with-ease.min.js"></script>
-        <script src="vendor2/countTo/jquery.countTo.js"></script>
-        <script src="vendor2/form-validation/jquery.form.js"></script>
-        <script src="vendor2/form-validation/jquery.validate.min.js"></script>
-        <script src="vendor2/isotope/isotope.pkgd.min.js"></script>
-        {/* <!-- Custom Scripts --> */}
-        <script src="js2/app.js"></script><script src="/color/color.js"></script>
-        <script src="js2/bmi-calculator.js"></script>
-        <script src="js2/app-shop.js"></script>
-        <script src="form/forms.js"></script>
 
 
 

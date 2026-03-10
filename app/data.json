@@ -346,7 +346,7 @@
       {
         "id": 1,
         "icon": "icon-placeholder2",
-        "content": "1st floor, V Plaza, 104, opp. Laxmi Enclave, nr. Gajera School, Katargam, Surat, Gujarat 395004<br /><a href=\"contact.html\" class=\"btn btn-xs btn-gradient\"><i class=\"icon-placeholder2\"></i><span>Get directions on the map</span><i class=\"icon-right-arrow\"></i></a>"
+        "content": "1st floor, V Plaza, 104, opp. Laxmi Enclave, nr. Gajera School, Katargam, Surat, Gujarat 395004<br /><a href=\"/contact\" class=\"btn btn-xs btn-gradient\"><i class=\"icon-placeholder2\"></i><span>Get directions on the map</span><i class=\"icon-right-arrow\"></i></a>"
       },
       {
         "id": 2,
@@ -419,37 +419,13 @@
       },
       {
         "id": 3,
-        "label": "Smiles Gallery",
-        "url": "gallery.html",
-        "subLinks": [
-          {
-            "label": "Creative Gallery",
-            "url": "gallery.html"
-          },
-          {
-            "label": "Simple Gallery",
-            "url": "gallery-simple.html"
-          }
-        ]
+        "label": "Gallery",
+        "url": "/gallery"
       },
       {
         "id": 4,
-        "label": "Our Specialists",
-        "url": "our-specialist.html",
-        "subLinks": [
-          {
-            "label": "All Specialists",
-            "url": "our-specialist.html"
-          },
-          {
-            "label": "Doctor Page",
-            "url": "doctor-page.html"
-          },
-          {
-            "label": "Schedule Table",
-            "url": "schedule.html"
-          }
-        ]
+        "label": "The Specialist",
+        "url": "/the-specialist"
       },
       {
         "id": 5,
@@ -478,7 +454,7 @@
       {
         "id": 7,
         "label": "Contacts",
-        "url": "contact.html"
+        "url": "/contact"
       }
     ]
   },
@@ -504,7 +480,7 @@
       "txt2": "Augmentation",
       "txt3": "All inclusive include implants<br />and all fees for specific dates",
       "btnText": "Contact now",
-      "btnLink": "contact.html",
+      "btnLink": "/contact",
       "alignLeft": false
     },
     {

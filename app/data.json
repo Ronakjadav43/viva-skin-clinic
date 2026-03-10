@@ -1,0 +1,615 @@
+{
+  "BestSkinTreatments": {
+    "leftList": [
+      "Acne & Acne Scar Treatment",
+      "Pigmentation & Dark Spot Removal",
+      "Hair Fall & PRP Therapy",
+      "Fungal Infection Treatment",
+      "Laser Hair Removal",
+      "Hydrafacial & Medi-Facials"
+    ],
+    "rightList": [
+      "Glutathione IV Skin Brightening",
+      "Carbon Facial",
+      "Stretch Mark & Scar Reduction",
+      "Chemical Peels",
+      "Skin Tightening (MNRF)",
+      "Anti-Aging & Botox Treatments"
+    ]
+  },
+  "HeroSlider": [
+    {
+      "id": 1,
+      "image": "images/slider/s1.png",
+      "title": "Restore Your Skin.<br /><b>Regrow Your Confidence.</b>",
+      "subtitle": "Let us help you look your best!",
+      "link": "services.html",
+      "linkText": "Know more"
+    },
+    {
+      "id": 2,
+      "image": "images/slider/s2.png",
+      "title": "Advanced<br /><b>Skin, Hair & Fungal Treatment</b>",
+      "subtitle": "Highest standards of customer service",
+      "link": "services.html",
+      "linkText": "Know more"
+    },
+    {
+      "id": 3,
+      "image": "images/slider/s4.png",
+      "title": "Safe, Scientific<br /><b>Result-Oriented Dermatology Care</b>",
+      "subtitle": "Highest standards of customer service",
+      "link": "services.html",
+      "linkText": "Know more"
+    }
+  ],
+  "OurTreatments": {
+    "treatmentsGrid1": [
+      {
+        "id": 1,
+        "url": "service-page.html",
+        "imgSrc": "images/Treatments/Acne & acne spot.png",
+        "name": "Acne & Acne Spot",
+        "iconClass": "icon-salat",
+        "description": "Effective treatment for active acne and stubborn acne marks. We use advanced dermatology techniques to reduce inflammation, prevent breakouts and lighten acne pigmentation for clear skin."
+      },
+      {
+        "id": 2,
+        "url": "service-page.html",
+        "imgSrc": "images/Treatments/hair fall & Growth.png",
+        "name": "Hair Fall & Growth",
+        "iconClass": "icon-run",
+        "description": "Target hair thinning and excessive hair fall with clinically proven solutions for stronger, healthier hair."
+      },
+      {
+        "id": 3,
+        "url": "service-page.html",
+        "imgSrc": "images/Treatments/fungal infection.png",
+        "name": "Fungal Infections",
+        "iconClass": "icon-pills",
+        "description": "Safe and effective dermatological treatments for fungal skin infections with long-term prevention guidance."
+      },
+      {
+        "id": 4,
+        "url": "service-page.html",
+        "imgSrc": "images/Treatments/laser hair removal.png",
+        "name": "Laser Hair Removal",
+        "iconClass": "icon-behavior",
+        "description": "Permanent hair reduction with advanced laser technology. Safe for all skin types with painless, precise results."
+      }
+    ],
+    "treatmentsGrid2": [
+      {
+        "id": 5,
+        "url": "service-page.html",
+        "imgSrc": "images/Treatments/PRP Therapy.png",
+        "name": "PRP Therapy",
+        "iconClass": "icon-happy",
+        "description": "Platelet-Rich Plasma therapy for skin rejuvenation and hair restoration using your body's own healing power."
+      },
+      {
+        "id": 6,
+        "url": "service-page.html",
+        "imgSrc": "images/Treatments/hydra-facial.png",
+        "name": "Hydrafacial",
+        "iconClass": "icon-molecula",
+        "description": "Premium facial treatments for deep cleansing, exfoliation, and hydration to reveal radiant, glowing skin."
+      },
+      {
+        "id": 7,
+        "url": "service-page.html",
+        "imgSrc": "images/Treatments/Pigmentation Treatment.png",
+        "name": "Pigmentation Treatment",
+        "iconClass": "icon-coach",
+        "description": "Advanced solutions for dark spots, melasma, and uneven skin tone using cutting-edge dermatology techniques."
+      },
+      {
+        "id": 8,
+        "url": "service-page.html",
+        "imgSrc": "images/Treatments/Glutathione IV.png",
+        "name": "Glutathione IV Drip",
+        "iconClass": "icon-instruments",
+        "description": "Premium skin brightening treatment with Glutathione IV drips for overall skin glow and antioxidant protection."
+      }
+    ]
+  },
+  "GeneralServices": {
+    "mobileServices": [
+      {
+        "id": 1,
+        "icon": "icon-man",
+        "title": "Male Plastic Surgery",
+        "desc": "Men of all ages and all walks of life are requesting plastic surgery for cosmetic reasons",
+        "link": "service-page.html"
+      },
+      {
+        "id": 2,
+        "icon": "icon-injecting",
+        "title": "Non-Surgical Procedures",
+        "desc": "Aesthetic plastic surgery can achieve impressive changes. We offer a wide variety of non-surgical procedures",
+        "link": "service-page.html"
+      },
+      {
+        "id": 3,
+        "icon": "icon-body",
+        "title": "Body Procedures",
+        "desc": "Body Procedures are dedicated to aesthetic and functional enhancement of your body",
+        "link": "service-page.html"
+      },
+      {
+        "id": 4,
+        "icon": "icon-mommy",
+        "title": "Mommy Makeover",
+        "desc": "The goal of a mommy makeover is to restore the shape and appearance of a woman's body after childbearing.",
+        "link": "service-page.html"
+      }
+    ],
+    "mainImages": [
+      {
+        "id": 1,
+        "img": "images/content/service-02.jpg",
+        "title": "Facial Procedures",
+        "desc": "Our Clinic is board certified in facial plastic surgery and plastic surgery and specializes in facial cosmetic procedures.",
+        "link": "service-page.html",
+        "colClass": "col-8 order-2"
+      },
+      {
+        "id": 2,
+        "img": "images/content/service-04.jpg",
+        "title": "Breast Procedures",
+        "desc": "Cosmetic breast surgery can help you get the breast<br /> shape &amp; size you want",
+        "link": "service-page.html",
+        "colClass": "col-8 order-3 order-lg-4 order-xl-3"
+      }
+    ]
+  },
+  "WhyChooseUs": {
+    "listItems": [
+      "Advanced Skin & Hair Treatments",
+      "Modern Laser & Clinical Equipment",
+      "Personalized Treatment Plans",
+      "Safe & Hygienic Environment"
+    ],
+    "counterData": [
+      {
+        "id": 1,
+        "to": 5,
+        "speed": 1500,
+        "suffix": "+",
+        "text": "Years of Dermatology Experience"
+      },
+      {
+        "id": 2,
+        "to": 10,
+        "speed": 1500,
+        "suffix": "K+",
+        "text": "Happy Patients Treated"
+      },
+      {
+        "id": 3,
+        "to": 8,
+        "speed": 1500,
+        "suffix": "+",
+        "text": "Specialized Treatments"
+      },
+      {
+        "id": 4,
+        "to": 100,
+        "speed": 1500,
+        "suffix": "%",
+        "text": "Patient-Centered Care"
+      }
+    ],
+    "featuresData": [
+      {
+        "id": 1,
+        "icon": "icon-medicine",
+        "iconSize": "sm",
+        "title": "High Standard of surgery",
+        "text": "Our surgeons are fellows of the most rigorous and academically recognized accreditation body for surgeons, and have completed accredited fellowship training with high standards of quality."
+      },
+      {
+        "id": 2,
+        "icon": "icon-team",
+        "iconSize": "",
+        "title": "Committed Surgical Team",
+        "text": "Our surgeons' expertise covers the broad scope of general, vascular and trauma surgery. This includes surgery of the breast, cancers, colon and rectum, endocrine system, and skin diseases."
+      },
+      {
+        "id": 3,
+        "icon": "icon-syringe",
+        "iconSize": "sm",
+        "title": "Modern Equipment",
+        "text": "Our practice is equipped with the latest technology that allows us to perform the most modern treatments. We only use the premium brand products from the leading manufacturers."
+      }
+    ]
+  },
+  "FAQ": [
+    {
+      "question": "What services does the best skin clinic in Surat offer?",
+      "answer": "The best skin clinic offers treatments for acne, pigmentation, wrinkles, laser therapy, chemical peels, PRP, Hydrafacial and more. Each treatment is customized after consultation."
+    },
+    {
+      "question": "How do I know if I am visiting the best skin clinic in Surat?",
+      "answer": "Look for experienced dermatologists, modern technology, positive reviews, and personalized consultation approach."
+    },
+    {
+      "question": "Are the treatments safe?",
+      "answer": "Yes. All procedures are performed by qualified professionals using approved equipment and strict hygiene protocols."
+    },
+    {
+      "question": "Do you provide anti-aging treatments?",
+      "answer": "Yes. We offer Botox, fillers, PRP therapy, laser resurfacing and advanced skin rejuvenation treatments."
+    }
+  ],
+  "Testimonials": [
+    {
+      "id": 1,
+      "text": "You guys are all amazing! Everyone I have met at your office is kind, thoughtful, and listens to me. Everyone is so friendly from the time you walk in the door to the time you leave the office.",
+      "author": "Wilmer Stevenson",
+      "position": "Creative manager"
+    },
+    {
+      "id": 2,
+      "text": "I Am very impressed with you all as well as being highly proficient is absolutely adorable. I feel so relaxed in her capable hands and hope to be her patient for a very long time! You are a fantastic team and I feel very privileged to come to you all!!!",
+      "author": "Wilmer Stevenson",
+      "position": "Creative manager"
+    },
+    {
+      "id": 3,
+      "text": "You guys are all amazing! Everyone I have met at your office is kind, thoughtful, and listens to me. Everyone is so friendly from the time you walk in the door to the time you leave the office.",
+      "author": "Wilmer Stevenson",
+      "position": "Creative manager"
+    }
+  ],
+  "ClinicFigures": [
+    {
+      "id": 1,
+      "icon": "images/Experience.svg",
+      "endValue": 5,
+      "speed": 1500,
+      "suffix": "+",
+      "text": "Years of Dermatology Experience"
+    },
+    {
+      "id": 2,
+      "icon": "images/HappySkin&Hair.svg",
+      "endValue": 12000,
+      "speed": 1500,
+      "suffix": "+",
+      "text": "Happy Skin & Hair Patients"
+    },
+    {
+      "id": 3,
+      "icon": "images/AdvancedTreatmentTechnologies.svg",
+      "endValue": 25,
+      "speed": 1500,
+      "suffix": "+",
+      "text": "Advanced Treatment Technologies"
+    },
+    {
+      "id": 4,
+      "icon": "images/PatientSatisfactionRate.svg",
+      "endValue": 98,
+      "speed": 1500,
+      "suffix": "%",
+      "text": "Patient Satisfaction Rate"
+    }
+  ],
+  "Footer": {
+    "socialLinks": [
+      {
+        "id": 1,
+        "url": "https://www.facebook.com/",
+        "icon": "icon-facebook-logo"
+      },
+      {
+        "id": 2,
+        "url": "https://www.twitter.com/",
+        "icon": "icon-twitter-logo"
+      },
+      {
+        "id": 3,
+        "url": "https://plus.google.com/",
+        "icon": "icon-google-logo"
+      },
+      {
+        "id": 4,
+        "url": "https://www.instagram.com/",
+        "icon": "icon-instagram"
+      }
+    ],
+    "blogPosts": [
+      {
+        "id": 1,
+        "img": "images/content/footer-post-author-03.jpg",
+        "title": "Medications & Oral Health",
+        "date": "September 26, 2018",
+        "url": "post.html"
+      },
+      {
+        "id": 2,
+        "img": "images/content/footer-post-author-01.jpg",
+        "title": "Smile For Your Health!",
+        "date": "August 22, 2018",
+        "url": "post.html"
+      },
+      {
+        "id": 3,
+        "img": "images/content/footer-post-author-02.jpg",
+        "title": "Tooth Fairy Traditions...",
+        "date": "July 25, 2018",
+        "url": "post.html"
+      }
+    ],
+    "contacts": [
+      {
+        "id": 1,
+        "icon": "icon-placeholder2",
+        "content": "1st floor, V Plaza, 104, opp. Laxmi Enclave, nr. Gajera School, Katargam, Surat, Gujarat 395004<br /><a href=\"contact.html\" class=\"btn btn-xs btn-gradient\"><i class=\"icon-placeholder2\"></i><span>Get directions on the map</span><i class=\"icon-right-arrow\"></i></a>"
+      },
+      {
+        "id": 2,
+        "icon": "icon-telephone",
+        "content": "<b><span class=\"phone\"><span class=\"text-nowrap\">+91 99786 70270</span>, <span class=\"text-nowrap\">+91 99786 70270</span></span></b><br />(24/7 General inquiry)"
+      },
+      {
+        "id": 3,
+        "icon": "icon-black-envelope",
+        "content": "<a href=\"mailto:vivaskincarecenter@gmail.com\">vivaskincarecenter@gmail.com</a>"
+      }
+    ]
+  },
+  "Header": {
+    "mobileInfo": [
+      {
+        "id": 1,
+        "icon": "icon-placeholder2",
+        "content": "1560 Holden Street San Diego,<br /> CA 92139"
+      },
+      {
+        "id": 2,
+        "icon": "icon-telephone",
+        "content": "<span class=\"text-nowrap\">+91 99786 70270</span>, <span class=\"text-nowrap\">1-800-267-0001</span>"
+      },
+      {
+        "id": 3,
+        "icon": "icon-black-envelope",
+        "content": "<a href=\"mailto:vivaskincarecenter@gmail.com\">vivaskincarecenter@gmail.com</a>"
+      },
+      {
+        "id": 4,
+        "icon": "icon-clock",
+        "content": "Mon-Fri: 08:00 - 20:00<br /> Saturday: 08:00 - 18:00"
+      }
+    ],
+    "socialLinks": [
+      {
+        "id": 1,
+        "icon": "icon-facebook-logo-circle",
+        "url": "#"
+      },
+      {
+        "id": 2,
+        "icon": "icon-twitter-logo-circle",
+        "url": "#"
+      },
+      {
+        "id": 3,
+        "icon": "icon-google-plus-circle",
+        "url": "#"
+      }
+    ],
+    "navLinks": [
+      {
+        "id": 1,
+        "label": "About Us",
+        "url": "about"
+      },
+      {
+        "id": 2,
+        "label": "Services",
+        "url": "services.html",
+        "subLinks": [
+          {
+            "label": "All Services",
+            "url": "services.html"
+          },
+          {
+            "label": "Service Page",
+            "url": "service-page.html"
+          },
+          {
+            "label": "Prices",
+            "url": "prices.html"
+          },
+          {
+            "label": "Online Shop",
+            "url": "shop-listing.html"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Smiles Gallery",
+        "url": "gallery.html",
+        "subLinks": [
+          {
+            "label": "Creative Gallery",
+            "url": "gallery.html"
+          },
+          {
+            "label": "Simple Gallery",
+            "url": "gallery-simple.html"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Our Specialists",
+        "url": "our-specialist.html",
+        "subLinks": [
+          {
+            "label": "All Specialists",
+            "url": "our-specialist.html"
+          },
+          {
+            "label": "Doctor Page",
+            "url": "doctor-page.html"
+          },
+          {
+            "label": "Schedule Table",
+            "url": "schedule.html"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Testimonials",
+        "url": "testimonials.html"
+      },
+      {
+        "id": 6,
+        "label": "Blog",
+        "url": "blog.html",
+        "subLinks": [
+          {
+            "label": "Blog Posts",
+            "url": "blog.html"
+          },
+          {
+            "label": "Blog Grid Posts",
+            "url": "blog-grid.html"
+          },
+          {
+            "label": "Blog Single Post",
+            "url": "blog-post-page.html"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "label": "Contacts",
+        "url": "contact.html"
+      }
+    ]
+  },
+  "SpecialOffers": [
+    {
+      "id": 1,
+      "ribbonValue": "$750",
+      "ribbonSuffix": "OFF",
+      "image": "images/content/special-photo-01.jpg",
+      "txt1": "Love Yourself",
+      "txt2": "Offer",
+      "txt3": "Butt Lift or Tummy Tuck<br />or 360 Liposuction",
+      "btnText": "Schedule",
+      "btnLink": "schedule.html",
+      "alignLeft": false
+    },
+    {
+      "id": 2,
+      "ribbonValue": "10%",
+      "ribbonSuffix": "OFF",
+      "image": "images/content/special-photo-02.jpg",
+      "txt1": "Breast",
+      "txt2": "Augmentation",
+      "txt3": "All inclusive include implants<br />and all fees for specific dates",
+      "btnText": "Contact now",
+      "btnLink": "contact.html",
+      "alignLeft": false
+    },
+    {
+      "id": 3,
+      "ribbonValue": null,
+      "ribbonSuffix": null,
+      "image": "images/content/special-photo-03.jpg",
+      "txt1": "Whitening",
+      "txt2": "Laser Teeth",
+      "txt3": "Tooth whitening<br />and Home Bleaching",
+      "btnText": "Know more",
+      "btnLink": "services.html",
+      "alignLeft": true
+    },
+    {
+      "id": 4,
+      "ribbonValue": null,
+      "ribbonSuffix": null,
+      "image": "images/content/special-photo-04.jpg",
+      "txt1": "Porcelain",
+      "txt2": "Veneer",
+      "txt3": "6 Teeth or more in the same<br />jaw, upper or lower front",
+      "btnText": "Know more",
+      "btnLink": "service-page.html",
+      "alignLeft": true
+    }
+  ],
+  "FromBlog": [
+    {
+      "id": 1,
+      "img": "images/content/news-01.jpg",
+      "day": "17",
+      "month": "JAN",
+      "title": "The Simpler Solution That Lasts",
+      "teaser": "When patients visit our practice from places like Saratoga Springs, NY, they often express that laser hair removal can sound daunting or excessive ...",
+      "link": "blog-post-page.html",
+      "bgClass": "",
+      "hasIcon": true
+    },
+    {
+      "id": 2,
+      "img": "images/content/news-02.jpg",
+      "day": "22",
+      "month": "JAN",
+      "title": "Trending Now: Thighlighting",
+      "teaser": "No longer is liposuction just used on the abdomen. Patients who come to us from Albany and beyond appreciate the versatility of liposuction — and it can also treat...",
+      "link": "blog-post-page.html",
+      "bgClass": "bg-grey",
+      "hasIcon": true
+    },
+    {
+      "id": 3,
+      "img": "images/content/news-03.jpg",
+      "day": "26",
+      "month": "JAN",
+      "title": "Our Spa One Bridal Packages",
+      "teaser": "There is no one more interested in looking beautiful than a bride. Photographs from a wedding day are designed to be timeless, cherished in frames in the homes of...",
+      "link": "blog-post-page.html",
+      "bgClass": "",
+      "hasIcon": true
+    },
+    {
+      "id": 4,
+      "img": "images/content/news-01.jpg",
+      "day": "17",
+      "month": "JAN",
+      "title": "The Simpler Solution That Lasts",
+      "teaser": "When patients visit our practice from places like Saratoga Springs, NY, they often express that laser hair removal can sound daunting or excessive ...",
+      "link": "blog-post-page.html",
+      "bgClass": "bg-grey",
+      "hasIcon": false
+    },
+    {
+      "id": 5,
+      "img": "images/content/news-02.jpg",
+      "day": "22",
+      "month": "JAN",
+      "title": "Trending Now: Thighlighting",
+      "teaser": "No longer is liposuction just used on the abdomen. Patients who come to us from Albany and beyond appreciate the versatility of liposuction — and it can also treat...",
+      "link": "blog-post-page.html",
+      "bgClass": "",
+      "hasIcon": false
+    },
+    {
+      "id": 6,
+      "img": "images/content/news-03.jpg",
+      "day": "26",
+      "month": "JAN",
+      "title": "Our Spa One Bridal Packages",
+      "teaser": "There is no one more interested in looking beautiful than a bride. Photographs from a wedding day are designed to be timeless, cherished in frames in the homes of...",
+      "link": "blog-post-page.html",
+      "bgClass": "bg-grey",
+      "hasIcon": false
+    }
+  ]
+}

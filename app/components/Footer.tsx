@@ -1,79 +1,8 @@
 import React from "react";
 
-const socialLinks = [
-  { id: 1, url: "https://www.facebook.com/", icon: "icon-facebook-logo" },
-  { id: 2, url: "https://www.twitter.com/", icon: "icon-twitter-logo" },
-  { id: 3, url: "https://plus.google.com/", icon: "icon-google-logo" },
-  { id: 4, url: "https://www.instagram.com/", icon: "icon-instagram" },
-];
+import data from "../data.json";
 
-const blogPosts = [
-  {
-    id: 1,
-    img: "images/content/footer-post-author-03.jpg",
-    title: "Medications & Oral Health",
-    date: "September 26, 2018",
-    url: "post.html",
-  },
-  {
-    id: 2,
-    img: "images/content/footer-post-author-01.jpg",
-    title: "Smile For Your Health!",
-    date: "August 22, 2018",
-    url: "post.html",
-  },
-  {
-    id: 3,
-    img: "images/content/footer-post-author-02.jpg",
-    title: "Tooth Fairy Traditions...",
-    date: "July 25, 2018",
-    url: "post.html",
-  },
-];
-
-const contacts = [
-  {
-    id: 1,
-    icon: "icon-placeholder2",
-    content: (
-      <>
-        1st floor, V Plaza, 104, opp. Laxmi Enclave, nr. Gajera
-        School, Katargam, Surat, Gujarat 395004
-        <br />
-        <a href="contact.html" className="btn btn-xs btn-gradient">
-          <i className="icon-placeholder2" />
-          <span>Get directions on the map</span>
-          <i className="icon-right-arrow" />
-        </a>
-      </>
-    ),
-  },
-  {
-    id: 2,
-    icon: "icon-telephone",
-    content: (
-      <>
-        <b>
-          <span className="phone">
-            <span className="text-nowrap">+91 99786 70270</span>,{" "}
-            <span className="text-nowrap">+91 99786 70270</span>
-          </span>
-        </b>
-        <br />
-        (24/7 General inquiry)
-      </>
-    ),
-  },
-  {
-    id: 3,
-    icon: "icon-black-envelope",
-    content: (
-      <a href="mailto:vivaskincarecenter@gmail.com">
-        vivaskincarecenter@gmail.com
-      </a>
-    ),
-  },
-];
+const { socialLinks, blogPosts, contacts } = data.Footer;
 
 export default function Footer() {
   return (
@@ -169,7 +98,7 @@ export default function Footer() {
                 {contacts.map((contact) => (
                   <li key={contact.id}>
                     <i className={contact.icon} />
-                    {contact.content}
+                    <span dangerouslySetInnerHTML={{ __html: contact.content }}></span>
                   </li>
                 ))}
               </ul>

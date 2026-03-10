@@ -1,49 +1,8 @@
 import React from "react";
 
-const sliderData = [
-  {
-    id: 1,
-    image: "images/slider/s1.png",
-    title: (
-      <>
-        Restore Your Skin.
-        <br />
-        <b>Regrow Your Confidence.</b>
-      </>
-    ),
-    subtitle: "Let us help you look your best!",
-    link: "services.html",
-    linkText: "Know more",
-  },
-  {
-    id: 2,
-    image: "images/slider/s2.png",
-    title: (
-      <>
-        Advanced
-        <br />
-        <b>Skin, Hair & Fungal Treatment</b>
-      </>
-    ),
-    subtitle: "Highest standards of customer service",
-    link: "services.html",
-    linkText: "Know more",
-  },
-  {
-    id: 3,
-    image: "images/slider/s4.png",
-    title: (
-      <>
-        Safe, Scientific
-        <br />
-        <b>Result-Oriented Dermatology Care</b>
-      </>
-    ),
-    subtitle: "Highest standards of customer service",
-    link: "services.html",
-    linkText: "Know more",
-  },
-];
+import data from "../data.json";
+
+const sliderData = data.HeroSlider;
 
 export default function HeroSlider() {
   return (
@@ -71,9 +30,8 @@ export default function HeroSlider() {
                       className="slide-txt1"
                       data-animation="fadeInDown"
                       data-animation-delay="1s"
-                    >
-                      {slide.title}
-                    </div>
+                      dangerouslySetInnerHTML={{ __html: slide.title }}
+                    />
                     <div
                       className="slide-txt2"
                       data-animation="fadeInUp"

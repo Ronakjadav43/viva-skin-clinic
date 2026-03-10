@@ -1,99 +1,9 @@
 "use client";
 import React, { useState } from "react";
 
-const mobileInfo = [
-  {
-    id: 1,
-    icon: "icon-placeholder2",
-    content: (
-      <>
-        1560 Holden Street San Diego,
-        <br /> CA 92139
-      </>
-    ),
-  },
-  {
-    id: 2,
-    icon: "icon-telephone",
-    content: (
-      <>
-        <span className="text-nowrap">+91 99786 70270</span>,{" "}
-        <span className="text-nowrap">1-800-267-0001</span>
-      </>
-    ),
-  },
-  {
-    id: 3,
-    icon: "icon-black-envelope",
-    content: (
-      <a href="mailto:vivaskincarecenter@gmail.com">
-        vivaskincarecenter@gmail.com
-      </a>
-    ),
-  },
-  {
-    id: 4,
-    icon: "icon-clock",
-    content: (
-      <>
-        Mon-Fri: 08:00 - 20:00
-        <br /> Saturday: 08:00 - 18:00
-      </>
-    ),
-  },
-];
+import data from "../data.json";
 
-const socialLinks = [
-  { id: 1, icon: "icon-facebook-logo-circle", url: "#" },
-  { id: 2, icon: "icon-twitter-logo-circle", url: "#" },
-  { id: 3, icon: "icon-google-plus-circle", url: "#" },
-];
-
-const navLinks = [
-  { id: 1, label: "About Us", url: "about.html" },
-  {
-    id: 2,
-    label: "Services",
-    url: "services.html",
-    subLinks: [
-      { label: "All Services", url: "services.html" },
-      { label: "Service Page", url: "service-page.html" },
-      { label: "Prices", url: "prices.html" },
-      { label: "Online Shop", url: "shop-listing.html" },
-    ],
-  },
-  {
-    id: 3,
-    label: "Smiles Gallery",
-    url: "gallery.html",
-    subLinks: [
-      { label: "Creative Gallery", url: "gallery.html" },
-      { label: "Simple Gallery", url: "gallery-simple.html" },
-    ],
-  },
-  {
-    id: 4,
-    label: "Our Specialists",
-    url: "our-specialist.html",
-    subLinks: [
-      { label: "All Specialists", url: "our-specialist.html" },
-      { label: "Doctor Page", url: "doctor-page.html" },
-      { label: "Schedule Table", url: "schedule.html" },
-    ],
-  },
-  { id: 5, label: "Testimonials", url: "testimonials.html" },
-  {
-    id: 6,
-    label: "Blog",
-    url: "blog.html",
-    subLinks: [
-      { label: "Blog Posts", url: "blog.html" },
-      { label: "Blog Grid Posts", url: "blog-grid.html" },
-      { label: "Blog Single Post", url: "blog-post-page.html" },
-    ],
-  },
-  { id: 7, label: "Contacts", url: "contact.html" },
-];
+const { mobileInfo, socialLinks, navLinks } = data.Header;
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -106,7 +16,7 @@ export default function Header() {
             {mobileInfo.map((info) => (
               <li key={info.id}>
                 <i className={info.icon} />
-                {info.content}
+                <span dangerouslySetInnerHTML={{ __html: info.content }}></span>
               </li>
             ))}
           </ul>

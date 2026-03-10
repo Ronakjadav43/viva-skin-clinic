@@ -1,25 +1,8 @@
 import React from "react";
 
-const testimonials = [
-  {
-    id: 1,
-    text: "You guys are all amazing! Everyone I have met at your office is kind, thoughtful, and listens to me. Everyone is so friendly from the time you walk in the door to the time you leave the office.",
-    author: "Wilmer Stevenson",
-    position: "Creative manager",
-  },
-  {
-    id: 2,
-    text: "I Am very impressed with you all as well as being highly proficient is absolutely adorable. I feel so relaxed in her capable hands and hope to be her patient for a very long time! You are a fantastic team and I feel very privileged to come to you all!!!",
-    author: "Wilmer Stevenson",
-    position: "Creative manager",
-  },
-  {
-    id: 3,
-    text: "You guys are all amazing! Everyone I have met at your office is kind, thoughtful, and listens to me. Everyone is so friendly from the time you walk in the door to the time you leave the office.",
-    author: "Wilmer Stevenson",
-    position: "Creative manager",
-  },
-];
+import data from "../data.json";
+
+const testimonials = data.Testimonials;
 
 export default function Testimonials() {
   return (

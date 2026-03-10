@@ -1,28 +1,9 @@
 "use client";
 import { useState } from "react";
 
-const faqs = [
-  {
-    question: "What services does the best skin clinic in Surat offer?",
-    answer:
-      "The best skin clinic offers treatments for acne, pigmentation, wrinkles, laser therapy, chemical peels, PRP, Hydrafacial and more. Each treatment is customized after consultation.",
-  },
-  {
-    question: "How do I know if I am visiting the best skin clinic in Surat?",
-    answer:
-      "Look for experienced dermatologists, modern technology, positive reviews, and personalized consultation approach.",
-  },
-  {
-    question: "Are the treatments safe?",
-    answer:
-      "Yes. All procedures are performed by qualified professionals using approved equipment and strict hygiene protocols.",
-  },
-  {
-    question: "Do you provide anti-aging treatments?",
-    answer:
-      "Yes. We offer Botox, fillers, PRP therapy, laser resurfacing and advanced skin rejuvenation treatments.",
-  },
-];
+import data from "../data.json";
+
+const faqs = data.FAQ;
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);

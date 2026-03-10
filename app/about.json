@@ -1,0 +1,90 @@
+{
+  "AboutClinic": {
+    "images": [
+      "images/content/about-01.jpg",
+      "images/content/about-03.jpg",
+      "images/content/about-04.jpg"
+    ],
+    "paragraphs": [
+      "For nearly 16 years, our financial district dentist, Adam Smith, DDS and the dental team at DentCo Dental Clinic have provided cosmetic dentistry as well as family dentistry services. Dr. Adam understands that patients have a variety of practices in the area to choose from.",
+      "Come and experience dentistry carried out a little differently in our Private Practice. A practice where you will:"
+    ],
+    "list": [
+      "Be involved in your care and treatment choices",
+      "Be welcomed and feel relaxed and cared for",
+      "Appreciate the well qualified, experienced team",
+      "Want the best dentistry available"
+    ],
+    "mission": "It is our mission to exceed expectations by providing exceptional dental care to our patients and at the same time, building relationships of trust with them.",
+    "vision": "Our vision is to be one of the leading dental clinic in the area, expanding our services to reach additional community members. We work to be trusted by patients, a valued partner in the community."
+  },
+  "AboutAdvantages": {
+    "listLeft": [
+      "Specialists and Dentists as One Team",
+      "Initial Dental Assessment",
+      "All Types of Dental Services",
+      "Safety by Credentials",
+      "Dental Implant Experience",
+      "Innovation",
+      "3D Imaging Center"
+    ],
+    "listRight": [
+      "On-site Laboratory",
+      "“Same Day” Dentistry",
+      "“Same Day” Dental Implants",
+      "Innovative Clinic Design",
+      "Complimentary Consultations",
+      "Insurance and Financing",
+      "Services Cost"
+    ]
+  },
+  "AboutCoreValues": [
+    {
+      "icon": "icon-innovation",
+      "title": "Innovation",
+      "text": "Embrace change, encourage invention and continually remain at the forefront of advances in oral health for the good of our patients"
+    },
+    {
+      "icon": "icon-compassion",
+      "title": "Compassion",
+      "text": "Demonstrate caring and sensitivity for the diverse backgrounds of our patients and colleagues and generosity in our communities"
+    },
+    {
+      "icon": "icon-integrity",
+      "title": "Integrity",
+      "text": "Adhere to high ethical and professional standards, demonstrating commitment to our responsibilities with trust, honesty and respect for all"
+    }
+  ],
+  "AboutSmileBanner": {
+    "title": "Get the Smile You've Always Wanted!",
+    "subtitle": "We strive to provide the highest quality dental treatment at reasonable fees",
+    "btnText": "Request an Appointment"
+  },
+  "AboutOffice": {
+    "paragraphs": [
+      "Our dental office in is a state of the art dental facility equipped with the newest technology, capable of handling all of your dental needs. All of our operatories are equipped with intraoral cameras that are able to show us, and you, the precise treatment you might attain on a television screen."
+    ],
+    "amenities": [
+      "TV’s in each treatment room",
+      "Complimentary coffee, Juice",
+      "Wireless Internet",
+      "Warm lavender towels"
+    ],
+    "galleryMain": [
+      "images/content/slider-gallery-00.jpg",
+      "images/content/slider-gallery-01.jpg",
+      "images/content/slider-gallery-02.jpg",
+      "images/content/slider-gallery-03.jpg",
+      "images/content/slider-gallery-04.jpg",
+      "images/content/slider-gallery-05.jpg"
+    ],
+    "galleryThumbs": [
+      "images/content/slider-gallery-00-sm.jpg",
+      "images/content/slider-gallery-01-sm.jpg",
+      "images/content/slider-gallery-02-sm.jpg",
+      "images/content/slider-gallery-03-sm.jpg",
+      "images/content/slider-gallery-04-sm.jpg",
+      "images/content/slider-gallery-05-sm.jpg"
+    ]
+  }
+}

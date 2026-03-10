@@ -1,42 +1,8 @@
 import React from "react";
 
-const listItems = [
-  "Advanced Skin & Hair Treatments",
-  "Modern Laser & Clinical Equipment",
-  "Personalized Treatment Plans",
-  "Safe & Hygienic Environment",
-];
+import data from "../data.json";
 
-const counterData = [
-  { id: 1, to: 5, speed: 1500, suffix: "+", text: "Years of Dermatology Experience" },
-  { id: 2, to: 10, speed: 1500, suffix: "K+", text: "Happy Patients Treated" },
-  { id: 3, to: 8, speed: 1500, suffix: "+", text: "Specialized Treatments" },
-  { id: 4, to: 100, speed: 1500, suffix: "%", text: "Patient-Centered Care" },
-];
-
-const featuresData = [
-  {
-    id: 1,
-    icon: "icon-medicine",
-    iconSize: "sm",
-    title: "High Standard of surgery",
-    text: "Our surgeons are fellows of the most rigorous and academically recognized accreditation body for surgeons, and have completed accredited fellowship training with high standards of quality.",
-  },
-  {
-    id: 2,
-    icon: "icon-team",
-    iconSize: "",
-    title: "Committed Surgical Team",
-    text: "Our surgeons' expertise covers the broad scope of general, vascular and trauma surgery. This includes surgery of the breast, cancers, colon and rectum, endocrine system, and skin diseases.",
-  },
-  {
-    id: 3,
-    icon: "icon-syringe",
-    iconSize: "sm",
-    title: "Modern Equipment",
-    text: "Our practice is equipped with the latest technology that allows us to perform the most modern treatments. We only use the premium brand products from the leading manufacturers.",
-  },
-];
+const { listItems, counterData, featuresData } = data.WhyChooseUs;
 
 export default function WhyChooseUs() {
   return (

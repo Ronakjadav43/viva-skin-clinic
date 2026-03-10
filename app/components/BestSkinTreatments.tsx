@@ -1,22 +1,8 @@
 import React from "react";
 
-const leftList = [
-  "Acne & Acne Scar Treatment",
-  "Pigmentation & Dark Spot Removal",
-  "Hair Fall & PRP Therapy",
-  "Fungal Infection Treatment",
-  "Laser Hair Removal",
-  "Hydrafacial & Medi-Facials",
-];
+import data from "../data.json";
 
-const rightList = [
-  "Glutathione IV Skin Brightening",
-  "Carbon Facial",
-  "Stretch Mark & Scar Reduction",
-  "Chemical Peels",
-  "Skin Tightening (MNRF)",
-  "Anti-Aging & Botox Treatments",
-];
+const { leftList, rightList } = data.BestSkinTreatments;
 
 export default function BestSkinTreatments() {
   return (
